@@ -1,0 +1,81 @@
+﻿<UserControl x:Class="ModernUIForWPFSample.WithoutBackButton.Views.fobStockInHand"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="1366" Loaded="UserControl_Loaded">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFBEBEBE" Offset="0"/>
+                <GradientStop Color="#FFF6F5F5" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Rectangle HorizontalAlignment="Left" Height="557" Margin="715,56,0,0" VerticalAlignment="Top" Width="490" Stroke="White">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFBEBEBE" Offset="0"/>
+                    <GradientStop Color="#FFF6F5F5" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Rectangle HorizontalAlignment="Left" Height="511" Margin="40,102,0,0" VerticalAlignment="Top" Width="609" Stroke="White">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFBEBEBE" Offset="0"/>
+                    <GradientStop Color="#FFF6F5F5" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label Content="FOB Stock in Hand" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="35" Width="211" FontSize="22" Foreground="Black"/>
+        <Label Content="Factory Name" HorizontalAlignment="Left" Margin="78,171,0,0" VerticalAlignment="Top" Height="29" Width="118" Foreground="Black" FontSize="16"/>
+        <Label Content="Description" HorizontalAlignment="Left" Margin="78,323,0,0" VerticalAlignment="Top" Height="22" Width="175" Foreground="Black" FontSize="16"/>
+        <Label Content="Date" HorizontalAlignment="Left" Margin="79,275,0,0" VerticalAlignment="Top" Height="27" Width="107" Foreground="#FF0E0E0E" FontSize="16" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.888"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="-0.581"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="Item" HorizontalAlignment="Left" Margin="78,226,0,0" VerticalAlignment="Top" Foreground="Black" FontSize="16" Width="62"/>
+        <Label Content="No of pieces" HorizontalAlignment="Left" Margin="78,373,0,0" VerticalAlignment="Top" Foreground="#FF070707" FontSize="16"/>
+        <Label Content="Cost per piece" HorizontalAlignment="Left" Margin="78,427,0,0" VerticalAlignment="Top" Foreground="#FF222121" FontSize="16"/>
+        <TextBox x:Name="textDescription" ToolTip="Enter Description" HorizontalAlignment="Left" Height="28" Margin="248,323,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="338"/>
+        <DatePicker x:Name="datePick" HorizontalAlignment="Left" Margin="248,271,0,0" VerticalAlignment="Top" Width="338" Height="29"/>
+        <Button Content="Previous" HorizontalAlignment="Left" Margin="950,555,0,0" VerticalAlignment="Top" Width="86" Visibility="Hidden"/>
+        <Button Content="Next" HorizontalAlignment="Left" Margin="1136,555,0,0" VerticalAlignment="Top" Width="88" Visibility="Hidden"/>
+        <Button x:Name="updateButton" Content="Update Details" HorizontalAlignment="Left" Margin="392,516,0,0" VerticalAlignment="Top" Width="194" Height="65" Click="updateButton_Click"/>
+        <Button x:Name="UploadPhoto" Content="Add a Photo" HorizontalAlignment="Left" Margin="829,522,0,0" VerticalAlignment="Top" Width="274" Click="UploadPhoto_Click"/>
+        <TextBox x:Name="textNoOfPieces" ToolTip="Enter No Of Pieces" KeyUp="textNoOfPieces_KeyUp" HorizontalAlignment="Left" Height="29" Margin="248,373,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="338" KeyDown="textNoOfPieces_KeyDown"/>
+        <TextBox x:Name="textCostPerPiece" ToolTip="Enter Cost Per Piece" HorizontalAlignment="Left" Height="29" Margin="248,427,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="338"/>
+        <Label x:Name="errorLabelNoOfPieces" Visibility="Hidden" Content="" HorizontalAlignment="Left" Margin="594,445,0,0" VerticalAlignment="Top" Height="21" Width="20" RenderTransformOrigin="-6.976,-8.132">
+            <Label.Background>
+                <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+            </Label.Background>
+        </Label>
+
+        <Button Content="Reset" HorizontalAlignment="Left" Margin="78,516,0,0" VerticalAlignment="Top" Width="143" Click="ResetButton_Click"/>
+        <Label Content="FOB Details" HorizontalAlignment="Left" Margin="56,113,0,0" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="242" FontSize="18.667" Height="32" FontWeight="Bold" Foreground="Black"/>
+        <Rectangle Fill="#B5FFFFFF" HorizontalAlignment="Left" Height="4" Margin="40,148,0,0" Stroke="White" VerticalAlignment="Top" Width="358" StrokeThickness="0"/>
+        <RadioButton x:Name="updateRButton" Content="Update" HorizontalAlignment="Left" Margin="514,484,0,0" VerticalAlignment="Top" Foreground="#FF070707" FontSize="16" Checked="updateRButton_Checked"/>
+        <RadioButton x:Name="addNewRButton" Content="Add New" HorizontalAlignment="Left" Margin="392,484,0,0" VerticalAlignment="Top" Foreground="#FF070707" FontSize="16" Checked="addNewRButton_Checked"/>
+        <Rectangle Fill="#B5FFFFFF" HorizontalAlignment="Left" Height="4" Margin="720,102,0,0" Stroke="White" VerticalAlignment="Top" Width="358" StrokeThickness="0"/>
+        <Label Content="Photos" HorizontalAlignment="Left" Margin="733,70,0,0" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="242" FontSize="18.667" Height="32" FontWeight="Bold" Foreground="Black"/>
+        <ComboBox x:Name="searchCombo" DropDownOpened="searchCombo_DropDownOpened" KeyUp="searchCombo_KeyUp" SelectionChanged="searchCombo_SelectionChanged" HorizontalAlignment="Left" Margin="40,56,0,0" VerticalAlignment="Top" Width="609" Height="36" IsEditable="True" IsTextSearchEnabled="False"/>
+        <TextBox x:Name="textItemName" HorizontalAlignment="Left" Height="28" Margin="248,219,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="338"/>
+        <TextBox x:Name="textFactoryName" HorizontalAlignment="Left" Height="28" Margin="248,171,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="338"/>
+        <Image x:Name="imageViewer" HorizontalAlignment="Left" Height="374" Margin="816,130,0,0" VerticalAlignment="Top" Width="314"/>
+        <Button x:Name="nextImageButton" Content="&gt;" HorizontalAlignment="Left" Height="65" Margin="1128,522,0,0" VerticalAlignment="Top" Width="55" Click="nextImageButton_Click"/>
+        <Button x:Name="previousImageButton" Content="&lt;" HorizontalAlignment="Left" Height="65" Margin="755,522,0,0" VerticalAlignment="Top" Width="54" Click="previousImageButton_Click"/>
+        <Button x:Name="deleteCurrentImageButton" Content="Delete this Photo" HorizontalAlignment="Left" Margin="829,561,0,0" VerticalAlignment="Top" Width="274" Click="deleteCurrentImageButton_Click"/>
+        <Button x:Name="deleteCurrentRecordButton" Content="Delete this Record" HorizontalAlignment="Left" Margin="78,555,0,0" VerticalAlignment="Top" Width="143" Click="deleteCurrentRecordButton_Click"/>
+
+
+    </Grid>
+</UserControl>

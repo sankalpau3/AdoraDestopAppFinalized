@@ -1,0 +1,168 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:WithoutBackButton="clr-namespace:ModernUIForWPFSample.WithoutBackButton" x:Class="ModernUIForWPFSample.WithoutBackButton.Views.ResourcesControl"
+             d:DesignHeight="300"
+             d:DesignWidth="300"
+             Height="768"
+             Width="1366"
+             mc:Ignorable="d" Loaded="UserControl_Loaded">
+    <UserControl.Resources>
+
+        <CollectionViewSource x:Key="showCurDetailViewSource" d:DesignSource="{d:DesignInstance {x:Type WithoutBackButton:showCurDetail}, CreateList=True}"/>
+        <CollectionViewSource x:Key="userViewSource" d:DesignSource="{d:DesignInstance {x:Type WithoutBackButton:User}, CreateList=True}"/>
+    </UserControl.Resources>
+    <UserControl.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="Black" Offset="0"/>
+            <GradientStop Color="White" Offset="1"/>
+        </LinearGradientBrush>
+    </UserControl.Background>
+    <Grid x:Name="LayoutRoot" DataContext="">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                <GradientStop Color="#FFBEBEBE"/>
+                <GradientStop Color="#FFBEBEBE" Offset="0.985"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Rectangle Stroke="#FFFBFBFB" Margin="258,80,562,255"/>
+
+        <Label Content="Settings" HorizontalAlignment="Left" Margin="44,10,0,0" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" FontSize="21.333" Height="37" Width="176" Foreground="Black"/>
+        <Label x:Name="errValue" Content="" HorizontalAlignment="Left" Margin="882,371,0,0" VerticalAlignment="Top" Width="10" Height="10" RenderTransformOrigin="2.262,1.9" Visibility="Hidden">
+            <Label.Background>
+                <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+            </Label.Background>
+        </Label>
+
+        <Label x:Name="lblAddName" Content="" HorizontalAlignment="Left" Margin="532,162,0,0" VerticalAlignment="Top" Foreground="#FF9E0505" Width="10" Height="10" FontSize="36" Visibility="Hidden">
+            <Label.Background>
+                <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+            </Label.Background>
+        </Label>
+        <TabControl HorizontalAlignment="Left" Height="539" Margin="44,47,0,0" VerticalAlignment="Top" Width="1206" TabStripPlacement="Left" Background="#FFBEBEBE" BorderBrush="{x:Null}">
+            <TabItem Header="User Management" Margin="0,0,0,-69.967" Height="73.6" VerticalAlignment="Bottom" BorderBrush="{x:Null}" Width="184.5">
+
+                <Grid Background="#FFE5E5E5" Margin="0,0,0,-6">
+                    <Label Content="Add Users" HorizontalAlignment="Left" Margin="41,37,0,0" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="520" FontSize="18.667" Height="47" FontWeight="Bold" Foreground="Black" Background="{x:Null}"/>
+                    <Label Content="Name" HorizontalAlignment="Left" Margin="41,115,0,0" VerticalAlignment="Top" Width="168" Foreground="Black" FontSize="16" Height="31"/>
+                    <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="23" Margin="214,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267" KeyUp="txtName_KeyUp"/>
+                    <Label Content="Username" HorizontalAlignment="Left" Margin="41,152,0,0" VerticalAlignment="Top" Width="168" Foreground="Black" FontSize="16" Height="31"/>
+                    <Label Content="Password" HorizontalAlignment="Left" Margin="41,187,0,0" VerticalAlignment="Top" Width="168" Foreground="Black" FontSize="16" Height="31"/>
+                    <Label Content="Confirm Password" HorizontalAlignment="Left" Margin="41,221,0,0" VerticalAlignment="Top" Width="168" Foreground="Black" FontSize="16" Height="31"/>
+                    <Label Content="User Level" HorizontalAlignment="Left" Margin="41,287,0,0" VerticalAlignment="Top" Width="168" Foreground="Black" FontSize="16" Height="31"/>
+                    <Label Content="E - Mail" HorizontalAlignment="Left" Margin="41,319,0,0" VerticalAlignment="Top" Width="168" Foreground="Black" FontSize="16" Height="31"/>
+                    <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Height="23" Margin="214,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267" KeyUp="txtUsername_KeyUp"/>
+                    <PasswordBox x:Name="txtPass" HorizontalAlignment="Left" Margin="214,187,0,0" VerticalAlignment="Top" Width="267" KeyUp="txtPass_KeyUp"/>
+                    <PasswordBox x:Name="txtConfPass" HorizontalAlignment="Left" Margin="214,221,0,0" VerticalAlignment="Top" Width="267" KeyUp="txtConfPass_KeyUp"/>
+                    <ComboBox x:Name="txtUsrLvl" HorizontalAlignment="Left" Margin="214,287,0,0" VerticalAlignment="Top" Width="267" SelectedIndex="0"/>
+                    <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="23" Margin="214,319,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267" KeyUp="txtEmail_KeyUp"/>
+                    <Label x:Name="lblName" Content="" HorizontalAlignment="Left" Margin="489,121,0,0" VerticalAlignment="Top" Foreground="#FF9E0505" Width="10" Height="10" FontSize="36" Visibility="Hidden">
+                        <Label.Background>
+                            <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+                        </Label.Background>
+                    </Label>
+                    <Label x:Name="lblUname" Content="" HorizontalAlignment="Left" Margin="489,158,0,0" VerticalAlignment="Top" Foreground="#FF9E0505" Width="10" Height="10" FontSize="36" Visibility="Hidden">
+                        <Label.Background>
+                            <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+                        </Label.Background>
+                    </Label>
+                    <Label x:Name="lblconfPW" Content="" HorizontalAlignment="Left" Margin="489,226,0,0" VerticalAlignment="Top" Foreground="#FF9E0505" Width="10" Height="10" FontSize="36" Visibility="Hidden">
+                        <Label.Background>
+                            <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+                        </Label.Background>
+                    </Label>
+                    <Label x:Name="lblEMail" Content="" HorizontalAlignment="Left" Margin="489,325,0,0" VerticalAlignment="Top" Foreground="#FF9E0505" Width="10" Height="10" FontSize="36" Visibility="Hidden">
+                        <Label.Background>
+                            <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+                        </Label.Background>
+                    </Label>
+                    <Button x:Name="btnAddUser" Content="ADD USER" HorizontalAlignment="Left" Margin="343,372,0,0" VerticalAlignment="Top" Width="138" Height="53" Click="btnAddUser_Click"/>
+                    <DataGrid x:Name="userDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding Source={StaticResource userViewSource}}" Margin="561,147,28,192" RowDetailsVisibilityMode="VisibleWhenSelected" Background="#FF333333">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn x:Name="nameColumn" Binding="{Binding Name}" Header="Name" Width="150"/>
+                            <DataGridTextColumn x:Name="userNameColumn" Binding="{Binding UserName}" Header="User Name" Width="120"/>
+                            <DataGridTextColumn x:Name="typeColumn1" Binding="{Binding Type}" Header="Type" Width="140"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Rectangle HorizontalAlignment="Left" Height="399" Margin="516,89,0,0" Stroke="#FFFBFBFB" VerticalAlignment="Top" Width="3"/>
+                    <Label Content="National ID" HorizontalAlignment="Left" Margin="41,253,0,0" VerticalAlignment="Top" Width="168" Foreground="Black" FontSize="16" Height="31"/>
+                    <TextBox x:Name="txtNIC" HorizontalAlignment="Left" Height="23" Margin="214,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267" KeyUp="txtNIC_KeyUp"/>
+                    <Label x:Name="lblNIC" Content="" HorizontalAlignment="Left" Margin="489,259,0,0" VerticalAlignment="Top" Foreground="#FF9E0505" Width="10" Height="10" FontSize="36" Visibility="Hidden">
+                        <Label.Background>
+                            <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+                        </Label.Background>
+                    </Label>
+                    <Label x:Name="lblPass" Content="" HorizontalAlignment="Left" Margin="489,193,0,0" VerticalAlignment="Top" Foreground="#FF9E0505" Width="10" Height="10" FontSize="36" Visibility="Hidden">
+                        <Label.Background>
+                            <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+                        </Label.Background>
+                    </Label>
+                    <Label Content="Username" HorizontalAlignment="Left" Margin="561,107,0,0" VerticalAlignment="Top" Width="168" Foreground="Black" FontSize="16" Height="31"/>
+                    <ComboBox x:Name="txtEditUsername" HorizontalAlignment="Left" Margin="690,107,0,0" VerticalAlignment="Top" Width="154" SelectionChanged="txtEditUsername_SelectionChanged" Height="26"/>
+                    <Button x:Name="btnEditUser" Content="EDIT USER" HorizontalAlignment="Left" Margin="343,372,0,0" VerticalAlignment="Top" Width="138" Height="53" Click="btnEditUser_Click"/>
+                    <Button x:Name="btnReset1" Content="RESET" HorizontalAlignment="Left" Margin="214,372,0,0" VerticalAlignment="Top" Width="103" Height="53" Click="btnReset1_Click"/>
+                    <Button x:Name="btnDeleteUser" Content="DELETE" HorizontalAlignment="Left" Margin="866,107,0,0" VerticalAlignment="Top" Width="120" Click="btnDeleteUser_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Currency Settings" Margin="0,-77.305,0,77.304" BorderBrush="{x:Null}" Width="184.5" Height="73.5">
+
+                <Grid Background="#FFE5E5E5" Margin="0,-3,0,0" Height="533" VerticalAlignment="Top">
+                    <Rectangle HorizontalAlignment="Left" Height="300" Stroke="White" VerticalAlignment="Top" Width="648" Margin="67,30,0,0"/>
+                    <Label Content="Set Currency Rates" HorizontalAlignment="Left" Margin="93,59,0,0" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="520" FontSize="18.667" Height="47" FontWeight="Bold" Foreground="Black" Background="{x:Null}"/>
+                    <Label Content="Currency Type " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="90,128,0,0" Foreground="Black" FontSize="16"/>
+                    <ComboBox x:Name="dropCurType" HorizontalAlignment="Left" Margin="200,126,0,0" VerticalAlignment="Top" Width="188" IsEditable="True" SelectionChanged="dropCurType_SelectionChanged" KeyUp="dropCurType_KeyUp"/>
+                    <Label Content="Value (LKR)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="90,171,0,0" Foreground="Black" FontSize="16"/>
+                    <TextBox x:Name="txtValue" HorizontalAlignment="Left" Height="22" Margin="200,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" ToolTip="Number of pieces should less than or equals to pieces available" KeyUp="txtValue_KeyUp"/>
+                    <DataGrid x:Name="showCurDetailDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding Source={StaticResource showCurDetailViewSource}}" Margin="413,59,337,203" RowDetailsVisibilityMode="VisibleWhenSelected" Background="Black" IsReadOnly="True" GridLinesVisibility="All" HorizontalGridLinesBrush="#FFDEDEDE" VerticalGridLinesBrush="#FFCDC8C8">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn x:Name="typeColumn" Binding="{Binding Type}" Header="Type" Width="120"/>
+                            <DataGridTextColumn x:Name="current_ValueColumn" Binding="{Binding Current_Value}" Header="Current Value" Width="150"/>
+
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Margin="313,213,0,0" VerticalAlignment="Top" Width="75" Click="btnAdd_Click"/>
+                    <Button x:Name="btnReset" Content="Reset" HorizontalAlignment="Left" Margin="223,213,0,0" VerticalAlignment="Top" Width="75" Click="btnReset_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Backup &amp; Restore" HorizontalAlignment="Left" Height="74" VerticalAlignment="Top" Width="184" Margin="0,-2,0,0">
+                <Grid Background="#FFE5E5E5" Margin="-1.334,-4.002,4.834,-1.998">
+                    <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="512" Margin="511,10,0,0" VerticalAlignment="Top" Width="454"/>
+                    <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="512" Margin="39,10,0,0" VerticalAlignment="Top" Width="454">
+                        <Label Content=""/>
+                    </Border>
+                    <Rectangle HorizontalAlignment="Left" Height="353" Margin="527,82,0,0" Stroke="White" VerticalAlignment="Top" Width="431" RenderTransformOrigin="0.5,0.5">
+                        <Rectangle.Fill>
+                            <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/restore.jpg"/>
+                        </Rectangle.Fill>
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="-1"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <Rectangle HorizontalAlignment="Left" Height="353" Margin="50,82,0,0" Stroke="White" VerticalAlignment="Top" Width="431">
+                        <Rectangle.Fill>
+                            <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/backup.png"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <Button x:Name="btnBackUp" Content="Backup" HorizontalAlignment="Left" Margin="50,478,0,0" VerticalAlignment="Top" Width="431" Click="btnBackUp_Click" RenderTransformOrigin="0.54,5.348" Height="34"/>
+                    <Button x:Name="btnrestore" Content="Restore" HorizontalAlignment="Left" Margin="526,478,0,0" VerticalAlignment="Top" Width="431" Click="btnrestore_Click" Height="34"/>
+                    <TextBox x:Name="txtBackupLoc" HorizontalAlignment="Left" Height="33" Margin="50,440,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="330" IsEnabled="False"/>
+                    <Button Content="Browse" HorizontalAlignment="Left" Margin="385,440,0,0" VerticalAlignment="Top" Width="96" Height="33" Click="Button_Click"/>
+                    <TextBox x:Name="txtRestore" HorizontalAlignment="Left" Height="33" Margin="527,440,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="330" IsEnabled="False"/>
+                    <Button Content="Browse" HorizontalAlignment="Left" Margin="862,440,0,0" VerticalAlignment="Top" Width="96" Height="33" Click="Button_Click_1"/>
+                    <Canvas HorizontalAlignment="Left" Height="76" Margin="122,22,0,0" VerticalAlignment="Top" Width="888">
+                        <Label Content="Backup" HorizontalAlignment="Left" VerticalAlignment="Top" Height="32" Width="102" Foreground="#FF210A0A" FontSize="22" Canvas.Left="84" Canvas.Top="24"/>
+                        <Label Content="Restore" HorizontalAlignment="Left" VerticalAlignment="Top" Height="32" Width="100" Foreground="#FF210A0A" FontSize="22" Canvas.Left="598" Canvas.Top="24"/>
+                    </Canvas>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</UserControl>

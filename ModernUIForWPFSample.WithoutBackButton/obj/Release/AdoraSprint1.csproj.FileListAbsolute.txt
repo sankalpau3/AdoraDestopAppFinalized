@@ -1,0 +1,358 @@
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\ModernUIForWPFSample.WithoutBackButton.exe.config
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\ModernUIForWPFSample.WithoutBackButton.exe
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\ModernUIForWPFSample.WithoutBackButton.pdb
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\De.TorstenMandelkow.MetroChart.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\EntityFramework.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\FirstFloor.ModernUI.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\Microsoft.Expression.Drawing.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\EntityFramework.xml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\FirstFloor.ModernUI.xml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\de\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\es\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\fr\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\it\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\ja\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\ko\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\ru\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\ClusteredBarChart.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\ClusteredColumnChart.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\DoughnutChart.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\PieChart.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\StackedBarChart.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\StackedColumnChart.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\ClusteredBarChart.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\ClusteredColumnChart.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\DoughnutChart.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\PieChart.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\StackedBarChart.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\StackedColumnChart.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\ClusteredBarChart.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\ClusteredColumnChart.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\DoughnutChart.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\PieChart.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\StackedBarChart.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\StackedColumnChart.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\ClusteredBarChart.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\ClusteredColumnChart.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\DoughnutChart.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\PieChart.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\StackedBarChart.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\StackedColumnChart.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Login.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\MainWindow.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Simple Styles.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Themes\ModernWindow.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\firstOpen.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\fobStockInHand.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\Reports.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\App.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\ClusteredBarChart.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\ClusteredColumnChart.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\DoughnutChart.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\PieChart.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\StackedBarChart.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\StackedColumnChart.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\ClusteredBarChart.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\ClusteredColumnChart.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\DoughnutChart.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\PieChart.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\StackedBarChart.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\StackedColumnChart.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\ClusteredBarChart.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\ClusteredColumnChart.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\DoughnutChart.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\PieChart.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\StackedBarChart.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\StackedColumnChart.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\ClusteredBarChart.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\ClusteredColumnChart.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\DoughnutChart.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\PieChart.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\StackedBarChart.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\StackedColumnChart.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Login.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\MainWindow.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\FinalAnalysis.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\firstOpen.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\FixedOverHead.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\FOBActualCost.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\FOBPurchasing.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\fobSales.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\fobStockInHand.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\Reports.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\Settings.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\StockLotPurchases.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\StockLotsSales.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\App.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton_MarkupCompile.cache
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton_MarkupCompile.lref
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\FinalAnalysis.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\FixedOverHead.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\FOBActualCost.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\FOBPurchasing.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\fobSales.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\Settings.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\StockLotPurchases.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\StockLotsSales.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.g.resources
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Properties.Resources.resources
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.AccessoriesPurchasesSummary.resources
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.AnalyticalSummary.resources
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.FabricPurchasesSummary.resources
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.FixedOverheadsSummary.resources
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.FobPurchasesSummary.resources
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.FobSalesSummary.resources
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.ReportInputs.resources
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.StockInHandSummary.resources
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.StockLotsOverview.resources
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.StockLotsPurchasesSummary.resources
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.StockLotsSalesSummary.resources
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Views.StockLotsSalesSearch.resources
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\AdoraSprint1.csproj.GenerateResource.Cache
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\RdlCompile.cache
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\RdlCompile.compiled
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.exe
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.pdb
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\AdoraSprint1.csprojResolveAssemblyReference.cache
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\ModernUIForWPFSample.WithoutBackButton.exe.config
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.exe
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.pdb
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\ModernUIForWPFSample.WithoutBackButton.exe
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\ModernUIForWPFSample.WithoutBackButton.pdb
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\EntityFramework.dll
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\EntityFramework.SqlServer.dll
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\FirstFloor.ModernUI.dll
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\Microsoft.Expression.Drawing.dll
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\EntityFramework.xml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\EntityFramework.SqlServer.xml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\FirstFloor.ModernUI.xml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\de\Microsoft.Expression.Drawing.resources.dll
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\es\Microsoft.Expression.Drawing.resources.dll
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\fr\Microsoft.Expression.Drawing.resources.dll
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\it\Microsoft.Expression.Drawing.resources.dll
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\ja\Microsoft.Expression.Drawing.resources.dll
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\ko\Microsoft.Expression.Drawing.resources.dll
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\ru\Microsoft.Expression.Drawing.resources.dll
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\AdoraSprint1.csprojResolveAssemblyReference.cache
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\ClusteredBarChart.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\ClusteredColumnChart.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\DoughnutChart.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\PieChart.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\StackedBarChart.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\StackedColumnChart.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\ClusteredBarChart.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\ClusteredColumnChart.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\DoughnutChart.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\PieChart.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\StackedBarChart.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\StackedColumnChart.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\ClusteredBarChart.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\ClusteredColumnChart.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\DoughnutChart.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\PieChart.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\StackedBarChart.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\StackedColumnChart.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\ClusteredBarChart.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\ClusteredColumnChart.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\DoughnutChart.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\PieChart.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\StackedBarChart.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\StackedColumnChart.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Login.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\MainWindow.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Simple Styles.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Themes\ModernWindow.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\firstOpen.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\fobStockInHand.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\Reports.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\App.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\ClusteredBarChart.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\ClusteredColumnChart.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\DoughnutChart.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\PieChart.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\StackedBarChart.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\StackedColumnChart.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\ClusteredBarChart.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\ClusteredColumnChart.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\DoughnutChart.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\PieChart.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\StackedBarChart.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\StackedColumnChart.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\ClusteredBarChart.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\ClusteredColumnChart.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\DoughnutChart.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\PieChart.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\StackedBarChart.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\StackedColumnChart.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\ClusteredBarChart.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\ClusteredColumnChart.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\DoughnutChart.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\PieChart.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\StackedBarChart.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\StackedColumnChart.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Login.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\MainWindow.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\FinalAnalysis.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\firstOpen.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\FixedOverHead.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\FOBActualCost.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\FOBPurchasing.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\fobSales.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\fobStockInHand.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\Reports.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\Settings.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\StockLotPurchases.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\StockLotsSales.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\App.g.cs
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton_MarkupCompile.cache
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton_MarkupCompile.lref
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\FinalAnalysis.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\FixedOverHead.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\FOBActualCost.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\FOBPurchasing.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\fobSales.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\Settings.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\StockLotPurchases.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\StockLotsSales.baml
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.g.resources
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Properties.Resources.resources
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.AccessoriesPurchasesSummary.resources
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.AnalyticalSummary.resources
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.FabricPurchasesSummary.resources
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.FixedOverheadsSummary.resources
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.FobPurchasesSummary.resources
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.FobSalesSummary.resources
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.ReportInputs.resources
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.StockInHandSummary.resources
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.StockLotsOverview.resources
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.StockLotsPurchasesSummary.resources
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.StockLotsSalesSummary.resources
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Views.StockLotsSalesSearch.resources
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\AdoraSprint1.csproj.GenerateResource.Cache
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\RdlCompile.cache
+F:\Final VS Project and DB backup\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\RdlCompile.compiled
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\ModernUIForWPFSample.WithoutBackButton.exe.config
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.exe
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.pdb
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\ModernUIForWPFSample.WithoutBackButton.exe
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\ModernUIForWPFSample.WithoutBackButton.pdb
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\EntityFramework.dll
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\EntityFramework.SqlServer.dll
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\FirstFloor.ModernUI.dll
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\Microsoft.Expression.Drawing.dll
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\EntityFramework.xml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\EntityFramework.SqlServer.xml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\FirstFloor.ModernUI.xml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\de\Microsoft.Expression.Drawing.resources.dll
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\es\Microsoft.Expression.Drawing.resources.dll
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\fr\Microsoft.Expression.Drawing.resources.dll
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\it\Microsoft.Expression.Drawing.resources.dll
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\ja\Microsoft.Expression.Drawing.resources.dll
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\ko\Microsoft.Expression.Drawing.resources.dll
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\ru\Microsoft.Expression.Drawing.resources.dll
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Release\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\ClusteredBarChart.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\ClusteredColumnChart.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\DoughnutChart.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\PieChart.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\StackedBarChart.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\StackedColumnChart.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\ClusteredBarChart.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\ClusteredColumnChart.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\DoughnutChart.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\PieChart.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\StackedBarChart.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\StackedColumnChart.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\ClusteredBarChart.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\ClusteredColumnChart.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\DoughnutChart.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\PieChart.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\StackedBarChart.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\StackedColumnChart.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\ClusteredBarChart.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\ClusteredColumnChart.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\DoughnutChart.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\PieChart.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\StackedBarChart.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\StackedColumnChart.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Login.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\MainWindow.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Simple Styles.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Themes\ModernWindow.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\firstOpen.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\fobStockInHand.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\Reports.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\App.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\ClusteredBarChart.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\ClusteredColumnChart.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\DoughnutChart.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\PieChart.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\StackedBarChart.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\FOBSalesByYear\StackedColumnChart.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\ClusteredBarChart.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\ClusteredColumnChart.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\DoughnutChart.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\PieChart.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\StackedBarChart.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\NetProfitByYear\StackedColumnChart.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\ClusteredBarChart.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\ClusteredColumnChart.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\DoughnutChart.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\PieChart.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\StackedBarChart.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\StockLotsSalesByYear\StackedColumnChart.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\ClusteredBarChart.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\ClusteredColumnChart.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\DoughnutChart.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\PieChart.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\StackedBarChart.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Graphs\GraphTemplates\TotalByYear\StackedColumnChart.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Login.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\MainWindow.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\FinalAnalysis.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\firstOpen.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\FixedOverHead.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\FOBActualCost.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\FOBPurchasing.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\fobSales.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\fobStockInHand.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\Reports.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\Settings.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\StockLotPurchases.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\StockLotsSales.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\App.g.cs
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton_MarkupCompile.cache
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton_MarkupCompile.lref
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\FinalAnalysis.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\FixedOverHead.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\FOBActualCost.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\FOBPurchasing.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\fobSales.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\Settings.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\StockLotPurchases.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\Views\StockLotsSales.baml
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.g.resources
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Properties.Resources.resources
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.AccessoriesPurchasesSummary.resources
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.AnalyticalSummary.resources
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.FabricPurchasesSummary.resources
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.FixedOverheadsSummary.resources
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.FobPurchasesSummary.resources
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.FobSalesSummary.resources
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.ReportInputs.resources
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.StockInHandSummary.resources
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.StockLotsOverview.resources
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.StockLotsPurchasesSummary.resources
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Reports.StockLotsSalesSummary.resources
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\ModernUIForWPFSample.WithoutBackButton.Views.StockLotsSalesSearch.resources
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\AdoraSprint1.csproj.GenerateResource.Cache
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\RdlCompile.cache
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\RdlCompile.compiled
+E:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Release\AdoraSprint1.csprojResolveAssemblyReference.cache

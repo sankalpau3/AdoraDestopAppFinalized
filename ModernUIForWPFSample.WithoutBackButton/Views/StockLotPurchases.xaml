@@ -1,0 +1,125 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:WithoutBackButton="clr-namespace:ModernUIForWPFSample.WithoutBackButton" x:Name="StockLotPurchases1" x:Class="ModernUIForWPFSample.WithoutBackButton.Views.StockLotPurchases" 
+             mc:Ignorable="d" Height="700" Width="1366" Background="#FFE9ECF0" Loaded="StockLotPurchases1_Loaded">
+    <UserControl.Resources>
+        <CollectionViewSource x:Key="actualCostViewSource" d:DesignSource="{d:DesignInstance {x:Type WithoutBackButton:ActualCost}, CreateList=True}"/>
+        <CollectionViewSource x:Key="purchasingShipmentViewSource" d:DesignSource="{d:DesignInstance {x:Type WithoutBackButton:PurchasingShipment}, CreateList=True}"/>
+    </UserControl.Resources>
+    <Grid x:Name="LayoutRoot" DataContext="{StaticResource actualCostViewSource}">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFBEBEBE" Offset="0"/>
+                <GradientStop Color="#FFEAE8E8" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Rectangle Stroke="#FFFBFBFB" Margin="44,64,776,118"/>
+        <Label Content="Stock Lot Purchase" HorizontalAlignment="Left" Margin="12.972,11.041,0,0" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" FontSize="21.333" Height="37.452" Width="194.018" Foreground="Black"/>
+        <Label Content="Add Purchase Details" HorizontalAlignment="Left" Margin="59,64,0,0" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="243" FontSize="18.667" Height="47" Foreground="Black"/>
+        <Rectangle Fill="#B5FFFFFF" HorizontalAlignment="Left" Height="3" Margin="44,93,0,0" Stroke="Black" VerticalAlignment="Top" Width="360" StrokeThickness="0"/>
+        <Label Content="Date" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="243" FontSize="16" Height="47" Foreground="Black" Margin="59,116,0,0"/>
+        <Label Content="Shipment Title" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="243" FontSize="16" Height="47" Foreground="Black" Margin="59,156,0,0"/>
+        <Label Content="Number of Pieces" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="243" FontSize="16" Height="47" Foreground="Black" Margin="59,196,0,0"/>
+        <Label Content="Price Per Piece" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="243" FontSize="16" Height="47" Foreground="Black" Margin="59,236,0,0"/>
+        <Label Content="Transport" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="243" FontSize="16" Height="47" Foreground="Black" Margin="59,276,0,0"/>
+        <Label Content="Supplier Commission" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="243" FontSize="16" Height="47" Foreground="Black" Margin="59,316,0,0"/>
+        <Label Content="Miscellaneous" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="243" FontSize="16" Height="47" Foreground="Black" Margin="59,356,0,0"/>
+        <Label Content="Total Shipment Cost" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="243" FontSize="16" Height="46" Foreground="Black" Margin="59,435,0,0"/>
+        <Label Content="Actual Cost Per Piece" HorizontalAlignment="Left" Margin="59,481,0,0" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="243" FontSize="16" Height="47" Foreground="Black"/>
+        <TextBox x:Name="txtAddNoPieces" HorizontalAlignment="Left" Height="23" Margin="304,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" TextAlignment="Right" KeyUp="txtAddNoPieces_KeyUp" ToolTip="Enter a whole number" KeyDown="txtAddNoPieces_KeyDown"/>
+        <TextBox x:Name="txtAddPricePiece" HorizontalAlignment="Left" Height="23" Margin="304,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" TextAlignment="Right" KeyUp="txtAddPricePiece_KeyUp" ToolTip="Enter amount" KeyDown="txtAddPricePiece_KeyDown"/>
+        <TextBox x:Name="txtAddTrans" HorizontalAlignment="Left" Height="23" Margin="304,277,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" TextAlignment="Right" KeyUp="txtAddTrans_KeyUp" ToolTip="Enter Amount" KeyDown="txtAddTrans_KeyDown"/>
+        <TextBox x:Name="txtAddSupComm" HorizontalAlignment="Left" Height="23" Margin="304,317,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" TextAlignment="Right" KeyUp="txtAddSupComm_KeyUp" ToolTip="Enter Amount" KeyDown="txtAddSupComm_KeyDown"/>
+        <TextBox x:Name="txtAddMisc" HorizontalAlignment="Left" Height="23" Margin="304,357,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" TextAlignment="Right" KeyUp="txtAddMisc_KeyUp" KeyDown="txtAddMisc_KeyDown"/>
+        <DatePicker x:Name="txtAddDate" HorizontalAlignment="Left" Margin="304,116,0,0" VerticalAlignment="Top" Width="148" FirstDayOfWeek="Monday" ToolTip="Select date of purchase" DisplayDate="2015-03-14" Focusable="False"/>
+        <Label Content="LKR" HorizontalAlignment="Left" Margin="486,238,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF333333" FontSize="14"/>
+        <Label Content="LKR" HorizontalAlignment="Left" Margin="486,281,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF333333" FontSize="14"/>
+        <Label Content="LKR" HorizontalAlignment="Left" Margin="486,321,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF333333" FontSize="14"/>
+        <Label Content="LKR" HorizontalAlignment="Left" Margin="486,358,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF333333" FontSize="14"/>
+        <TextBox x:Name="txtAddTotalCost" HorizontalAlignment="Left" Height="23" Margin="304,435,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" TextAlignment="Right" Background="#FF767272" Focusable="False" ToolTip="Total Shipment Cost"/>
+        <TextBox x:Name="txtAddCPP" HorizontalAlignment="Left" Height="23" Margin="304,481,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" TextAlignment="Right" Background="#FF767272" Focusable="False" ToolTip="Actual Cost Per Piece"/>
+        <Label x:Name="curlbl2" Content="LKR" HorizontalAlignment="Left" Margin="486,483,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF333333" FontSize="14"/>
+        <Label x:Name="curlbl1" Content="LKR" HorizontalAlignment="Left" Margin="486,439,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF333333" FontSize="14"/>
+        <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Margin="434,543,0,0" VerticalAlignment="Top" Width="93" Click="btnAdd_Click"/>
+        <Button x:Name="btnResetAdd" Content="Reset" HorizontalAlignment="Left" Margin="328,543,0,0" VerticalAlignment="Top" Width="93" Click="btnResetAdd_Click"/>
+        <Rectangle HorizontalAlignment="Left" Height="94" Stroke="#FFFBFBFB" VerticalAlignment="Top" Width="648" Margin="634,64,0,0" DataContextChanged="Rectangle_DataContextChanged"/>
+        <Label Content="Edit / Remove Shipment" HorizontalAlignment="Left" Margin="659,79,0,0" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="243" FontSize="18.667" Height="47" Foreground="Black"/>
+        <Rectangle Fill="#B5FFFFFF" HorizontalAlignment="Left" Height="3" Margin="634,108,0,0" Stroke="Black" VerticalAlignment="Top" Width="360" StrokeThickness="0"/>
+        <Label Content="Ship ID" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="46" Height="26" Foreground="Black" Margin="965,123,0,0"/>
+        <Label Content="Shipment Title" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="118" Height="26" Foreground="Black" Margin="659,123,0,0"/>
+        <ComboBox x:Name="txtDelShipName" HorizontalAlignment="Left" Margin="744,119,0,0" VerticalAlignment="Top" Width="205" Height="24" SelectionChanged="txtDelShipName_SelectionChanged"/>
+        <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Margin="1171,119,0,0" VerticalAlignment="Top" Width="93" Height="24" Click="btnDelete_Click"/>
+        <Rectangle HorizontalAlignment="Left" Height="411" Stroke="#FFFBFBFB" VerticalAlignment="Top" Width="648" Margin="634,171,0,0"/>
+        <Label Content="Date" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="46" Height="26" Foreground="Black" Margin="659,183,0,0"/>
+        <DatePicker x:Name="txtSearchDate" HorizontalAlignment="Left" Margin="705,179,0,0" VerticalAlignment="Top" Width="148" FontSize="11" Height="24"/>
+        <Label Content="Shipment Title" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="118" Height="26" Foreground="Black" Margin="866,183,0,0"/>
+        <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="1171,179,0,0" VerticalAlignment="Top" Width="93" Height="24"/>
+        <TextBox x:Name="txtSearchShipName" HorizontalAlignment="Left" Height="24" Margin="951,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="205"/>
+        <Label x:Name="lblAddDate" Content="" HorizontalAlignment="Left" Margin="457,126,0,0" VerticalAlignment="Top" Foreground="#FF9E0505" Width="10" Height="10" FontSize="36" Visibility="Hidden">
+            <Label.Background>
+                <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+            </Label.Background>
+        </Label>
+        <Label x:Name="lblAddShipName" Content="" HorizontalAlignment="Left" Margin="532,162,0,0" VerticalAlignment="Top" Foreground="#FF9E0505" Width="10" Height="10" FontSize="36" Visibility="Hidden">
+            <Label.Background>
+                <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+            </Label.Background>
+        </Label>
+        <Label x:Name="lblAddNoPieces" Content="" HorizontalAlignment="Left" Margin="457,203,0,0" VerticalAlignment="Top" Foreground="#FF9E0505" Width="10" Height="10" FontSize="36" Visibility="Hidden">
+            <Label.Background>
+                <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+            </Label.Background>
+        </Label>
+        <Label x:Name="lblAddPPP" Content="" HorizontalAlignment="Left" Margin="457,243,0,0" VerticalAlignment="Top" Foreground="#FF9E0505" Width="10" Height="10" FontSize="36" Visibility="Hidden">
+            <Label.Background>
+                <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+            </Label.Background>
+        </Label>
+        <Label x:Name="lblAddTrans" Content="" HorizontalAlignment="Left" Margin="457,284,0,0" VerticalAlignment="Top" Foreground="#FF9E0505" Width="10" Height="10" FontSize="36" Visibility="Hidden">
+            <Label.Background>
+                <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+            </Label.Background>
+        </Label>
+        <Label x:Name="lblAddSupCom" Content="" HorizontalAlignment="Left" Margin="457,323,0,0" VerticalAlignment="Top" Foreground="#FF9E0505" Width="10" Height="10" FontSize="36" Visibility="Hidden">
+            <Label.Background>
+                <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+            </Label.Background>
+        </Label>
+        <Label x:Name="lblAddMisc" Content="" HorizontalAlignment="Left" Margin="457,363,0,0" VerticalAlignment="Top" Foreground="#FF9E0505" Width="10" Height="10" FontSize="36" Visibility="Hidden">
+            <Label.Background>
+                <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+            </Label.Background>
+        </Label>
+        <TextBox x:Name="txtAddShipName" HorizontalAlignment="Left" Height="23" Margin="304,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223" KeyDown="txtAddShipName_KeyDown" RenderTransformOrigin="0.5,0.5" ToolTip="Enter Shipment Name" KeyUp="txtAddShipName_KeyUp"/>
+        <Button Content="Calculate" HorizontalAlignment="Left" Margin="434,391,0,0" VerticalAlignment="Top" Width="93" Click="Button_Click_1"/>
+        <DataGrid x:Name="purchasingShipmentDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding Source={StaticResource purchasingShipmentViewSource}}" Margin="659,221,102,131" RowDetailsVisibilityMode="VisibleWhenSelected" Background="#FF333333" SelectionChanged="purchasingShipmentDataGrid_SelectionChanged" MouseDown="purchasingShipmentDataGrid_MouseDown" IsReadOnly="True" GridLinesVisibility="All">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="titleColumn" Binding="{Binding Title}" Header="Title" Width="SizeToHeader"/>
+                <!--<DataGridTemplateColumn x:Name="dateColumn" Header="Date" Width="SizeToHeader">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <DatePicker SelectedDate="{Binding Date, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>-->
+                <DataGridTextColumn x:Name="shipmentIDColumn" Binding="{Binding ShipmentID}" Header="Shipment ID" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="dateColumn" Binding="{Binding Date}" Header="Date" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="noOfPiecesColumn" Binding="{Binding NoOfPieces}" Header="Pieces" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="pricePerPieceColumn" Binding="{Binding PricePerPiece}" Header="Price/Piece" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="transportCostColumn" Binding="{Binding TransportCost}" Header="Transport" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="supplierCommissionColumn" Binding="{Binding SupplierCommission}" Header="Commission" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="micelleneousColumn" Binding="{Binding Micelleneous}" Header="Micelleneous" Width="SizeToHeader"/>
+                <!--<DataGridTextColumn x:Name="iDColumn" Binding="{Binding ID}" Header="ID" Width="SizeToHeader"/>-->
+                <!---->
+            </DataGrid.Columns>
+        </DataGrid>
+        <ComboBox x:Name="txtDelDate" HorizontalAlignment="Left" Margin="1016,119,0,0" VerticalAlignment="Top" Width="140" Height="24" SelectedIndex="0" SelectionChanged="txtDelDate_SelectionChanged" DropDownClosed="txtDelDate_DropDownClosed"/>
+        <Button x:Name="btnEdit" Content="Edit" HorizontalAlignment="Left" Margin="434,543,0,0" VerticalAlignment="Top" Width="93" Click="btnEdit_Click"/>
+        <Label x:Name="lblShipID" Content="" HorizontalAlignment="Left" Margin="445,21,0,0" VerticalAlignment="Top" Width="145" Background="#FF110101" Visibility="Hidden"/>
+        <ComboBox x:Name="dropCurrency" HorizontalAlignment="Left" Margin="307,395,0,0" VerticalAlignment="Top" Width="104" ToolTip="Select Currency Type" RenderTransformOrigin="-0.696,0.818" SelectedIndex="0" SelectionChanged="dropCurrency_SelectionChanged"/>
+    </Grid>
+</UserControl>

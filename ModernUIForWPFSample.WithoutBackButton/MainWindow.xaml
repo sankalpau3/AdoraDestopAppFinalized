@@ -1,0 +1,33 @@
+﻿<mui:ModernWindow x:Class="ModernUIForWPFSample.WithoutBackButton.MainWindow"
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+                  Title="Adora Apparel"
+                  Width="1366"
+                  Height="768"
+                  IsTitleVisible="True"
+                  Icon="adora.ico"
+                  Style="{StaticResource MyModernWindow}" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    <mui:ModernWindow.TitleLinks >
+        <mui:Link DisplayName="Settings" Source="/Views/Settings.xaml" />
+        <mui:Link DisplayName="JSPS" Source="http://jsps2015.blogspot.com/p/about-us.html" />
+    </mui:ModernWindow.TitleLinks>
+
+    <mui:ModernWindow.MenuLinkGroups >
+        <mui:LinkGroup DisplayName="Adora Apparels" >
+            <mui:LinkGroup.Links>
+                <mui:Link DisplayName="" Source="/Views/firstOpen.xaml" />
+                <mui:Link DisplayName="Stock Lot Purchases" Source="/Views/StockLotPurchases.xaml" />
+                <mui:Link DisplayName="Stock Lot Sales" Source="/Views/StockLotsSales.xaml" />
+                <mui:Link DisplayName="FOB Purchasing" Source="/Views/FOBPurchasing.xaml" />
+                <mui:Link DisplayName="FOB Sales" Source="/Views/fobSales.xaml" />
+                <mui:Link DisplayName="Fixed Overheads" Source="/Views/FixedOverHead.xaml" />
+                <mui:Link DisplayName="Stock In Hand" Source="/Views/FOBStockInHand.xaml" />
+                <mui:Link DisplayName="FOB Actual Cost" Source="/Views/FOBActualCost.xaml" />
+                <mui:Link DisplayName="Analytical Summary" Source="/Views/FinalAnalysis.xaml" />
+                <mui:Link DisplayName="Reports" Source="/Views/Reports.xaml" />
+                
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+    </mui:ModernWindow.MenuLinkGroups>
+</mui:ModernWindow>

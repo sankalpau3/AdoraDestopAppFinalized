@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="adoraDBModelStoreContainer" CdmEntityContainer="adoraDBContext">
+    <EntitySetMapping Name="Accessories">
+      <EntityTypeMapping TypeName="adoraDBModel.Accessory">
+        <MappingFragment StoreEntitySet="Accessories">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AccID" ColumnName="AccID" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="UnitType" ColumnName="UnitType" />
+          <ScalarProperty Name="PricePerUnit" ColumnName="PricePerUnit" />
+          <ScalarProperty Name="NoOfUnits" ColumnName="NoOfUnits" />
+          <ScalarProperty Name="TransportCost" ColumnName="TransportCost" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccessoryCosts">
+      <EntityTypeMapping TypeName="adoraDBModel.AccessoryCost">
+        <MappingFragment StoreEntitySet="AccessoryCost">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AccCostID" ColumnName="AccCostID" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="ACostID" ColumnName="ACostID" />
+          <ScalarProperty Name="wieghtPitem" ColumnName="wieghtPitem" />
+          <ScalarProperty Name="costPerHundredgms" ColumnName="costPerHundredgms" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ActualCosts">
+      <EntityTypeMapping TypeName="adoraDBModel.ActualCost">
+        <MappingFragment StoreEntitySet="ActualCost">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ACostID" ColumnName="ACostID" />
+          <ScalarProperty Name="CM" ColumnName="CM" />
+          <ScalarProperty Name="TotalCost" ColumnName="TotalCost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BnSFrequencies">
+      <EntityTypeMapping TypeName="adoraDBModel.BnSFrequency">
+        <MappingFragment StoreEntitySet="BnSFrequency">
+          <ScalarProperty Name="ShipmentID" ColumnName="ShipmentID" />
+          <ScalarProperty Name="FrequencyID" ColumnName="FrequencyID" />
+          <ScalarProperty Name="NoOfPieces" ColumnName="NoOfPieces" />
+          <ScalarProperty Name="PricePerPiece" ColumnName="PricePerPiece" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CurCategories">
+      <EntityTypeMapping TypeName="adoraDBModel.CurCategory">
+        <MappingFragment StoreEntitySet="CurCategory">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CurCatID" ColumnName="CurCatID" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Currencies">
+      <EntityTypeMapping TypeName="adoraDBModel.Currency">
+        <MappingFragment StoreEntitySet="Currency">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CurrencyID" ColumnName="CurrencyID" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="CurrencyCategory" ColumnName="CurrencyCategory" />
+          <ScalarProperty Name="change" ColumnName="change" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Fabrics">
+      <EntityTypeMapping TypeName="adoraDBModel.Fabric">
+        <MappingFragment StoreEntitySet="Fabric">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FabID" ColumnName="FabID" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="PricePerYard" ColumnName="PricePerYard" />
+          <ScalarProperty Name="Yardage" ColumnName="Yardage" />
+          <ScalarProperty Name="TransportCost" ColumnName="TransportCost" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FabricCosts">
+      <EntityTypeMapping TypeName="adoraDBModel.FabricCost">
+        <MappingFragment StoreEntitySet="FabricCost">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FabCostID" ColumnName="FabCostID" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="ACostID" ColumnName="ACostID" />
+          <ScalarProperty Name="costPyard" ColumnName="costPyard" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FixedOverheads">
+      <EntityTypeMapping TypeName="adoraDBModel.FixedOverhead">
+        <MappingFragment StoreEntitySet="FixedOverheads">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FixID" ColumnName="FixID" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="Month" ColumnName="Month" />
+          <ScalarProperty Name="Electricity" ColumnName="Electricity" />
+          <ScalarProperty Name="Tax" ColumnName="Tax" />
+          <ScalarProperty Name="Water" ColumnName="Water" />
+          <ScalarProperty Name="Salary" ColumnName="Salary" />
+          <ScalarProperty Name="RentOrMortgage" ColumnName="RentOrMortgage" />
+          <ScalarProperty Name="PhoneAnInternet" ColumnName="PhoneAnInternet" />
+          <ScalarProperty Name="Fuel" ColumnName="Fuel" />
+          <ScalarProperty Name="Misc" ColumnName="Misc" />
+          <ScalarProperty Name="Ot" ColumnName="Ot" />
+          <ScalarProperty Name="Other" ColumnName="Other" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FOBSalesFrequencies">
+      <EntityTypeMapping TypeName="adoraDBModel.FOBSalesFrequency">
+        <MappingFragment StoreEntitySet="FOBSalesFrequency">
+          <ScalarProperty Name="ShipmentID" ColumnName="ShipmentID" />
+          <ScalarProperty Name="FrequencyID" ColumnName="FrequencyID" />
+          <ScalarProperty Name="NoOfPieces" ColumnName="NoOfPieces" />
+          <ScalarProperty Name="PricePerPiece" ColumnName="PricePerPiece" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FOBSalesShipments">
+      <EntityTypeMapping TypeName="adoraDBModel.FOBSalesShipment">
+        <MappingFragment StoreEntitySet="FOBSalesShipments">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ShipmentID" ColumnName="ShipmentID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="NoOfPieces" ColumnName="NoOfPieces" />
+          <ScalarProperty Name="PricePerPiece" ColumnName="PricePerPiece" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Images">
+      <EntityTypeMapping TypeName="adoraDBModel.Image">
+        <MappingFragment StoreEntitySet="Image">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ImageID" ColumnName="ImageID" />
+          <ScalarProperty Name="Link" ColumnName="Link" />
+          <ScalarProperty Name="StockID" ColumnName="StockID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ManageCurrencies">
+      <EntityTypeMapping TypeName="adoraDBModel.ManageCurrency">
+        <MappingFragment StoreEntitySet="ManageCurrency">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="CurrencyID" ColumnName="CurrencyID" />
+          <ScalarProperty Name="datetime" ColumnName="datetime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ManageFixes">
+      <EntityTypeMapping TypeName="adoraDBModel.ManageFix">
+        <MappingFragment StoreEntitySet="ManageFix">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="FixID" ColumnName="FixID" />
+          <ScalarProperty Name="datetime" ColumnName="datetime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ManageFOBSalesShipments">
+      <EntityTypeMapping TypeName="adoraDBModel.ManageFOBSalesShipment">
+        <MappingFragment StoreEntitySet="ManageFOBSalesShipment">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="ShipmentID" ColumnName="ShipmentID" />
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ManagePSDetails">
+      <EntityTypeMapping TypeName="adoraDBModel.ManagePSDetail">
+        <MappingFragment StoreEntitySet="ManagePSDetails">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="ShipmentID" ColumnName="ShipmentID" />
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ManageStocks">
+      <EntityTypeMapping TypeName="adoraDBModel.ManageStock">
+        <MappingFragment StoreEntitySet="ManageStock">
+          <ScalarProperty Name="StockID" ColumnName="StockID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchaseAccessories">
+      <EntityTypeMapping TypeName="adoraDBModel.PurchaseAccessory">
+        <MappingFragment StoreEntitySet="PurchaseAccessories">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="AccID" ColumnName="AccID" />
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchaseFabs">
+      <EntityTypeMapping TypeName="adoraDBModel.PurchaseFab">
+        <MappingFragment StoreEntitySet="PurchaseFab">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="FabID" ColumnName="FabID" />
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchasingShipments">
+      <EntityTypeMapping TypeName="adoraDBModel.PurchasingShipment">
+        <MappingFragment StoreEntitySet="PurchasingShipments">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ShipmentID" ColumnName="ShipmentID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="NoOfPieces" ColumnName="NoOfPieces" />
+          <ScalarProperty Name="PricePerPiece" ColumnName="PricePerPiece" />
+          <ScalarProperty Name="ActualCostPerPiece" ColumnName="ActualCostPerPiece" />
+          <ScalarProperty Name="Micelleneous" ColumnName="Micelleneous" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="TransportCost" ColumnName="TransportCost" />
+          <ScalarProperty Name="SupplierCommission" ColumnName="SupplierCommission" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StockInHands">
+      <EntityTypeMapping TypeName="adoraDBModel.StockInHand">
+        <MappingFragment StoreEntitySet="StockInHand">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="StockID" ColumnName="StockID" />
+          <ScalarProperty Name="FactoryName" ColumnName="FactoryName" />
+          <ScalarProperty Name="ItemName" ColumnName="ItemName" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="ACostID" ColumnName="ACostID" />
+          <ScalarProperty Name="NoOfItems" ColumnName="NoOfItems" />
+          <ScalarProperty Name="descript" ColumnName="descript" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="adoraDBModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="NIC" ColumnName="NIC" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserTypes">
+      <EntityTypeMapping TypeName="adoraDBModel.UserType">
+        <MappingFragment StoreEntitySet="UserType">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserTypeID" ColumnName="UserTypeID" />
+          <ScalarProperty Name="UserTypeName" ColumnName="UserTypeName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="showBnSDetails">
+      <EntityTypeMapping TypeName="adoraDBModel.showBnSDetail">
+        <MappingFragment StoreEntitySet="showBnSDetails">
+          <ScalarProperty Name="Shipment_Name" ColumnName="Shipment Name" />
+          <ScalarProperty Name="Frequency_Date" ColumnName="Frequency Date" />
+          <ScalarProperty Name="Frequency_No" ColumnName="Frequency No" />
+          <ScalarProperty Name="Number_of_Pieces" ColumnName="Number of Pieces" />
+          <ScalarProperty Name="Price_per_piece" ColumnName="Price per piece" />
+          <ScalarProperty Name="Total_Gross" ColumnName="Total Gross" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="showCurDetails">
+      <EntityTypeMapping TypeName="adoraDBModel.showCurDetail">
+        <MappingFragment StoreEntitySet="showCurDetails">
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Current_Value" ColumnName="Current Value" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

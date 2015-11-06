@@ -1,0 +1,108 @@
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\ModernUIForWPFSample.WithoutBackButton.exe.config
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\ModernUIForWPFSample.WithoutBackButton.exe
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\ModernUIForWPFSample.WithoutBackButton.pdb
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\FirstFloor.ModernUI.dll
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\FirstFloor.ModernUI.xml
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\MainWindow.baml
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\Themes\ModernWindow.baml
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\Views\StepsControl.baml
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\App.baml
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\MainWindow.g.cs
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\Views\StepsControl.g.cs
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\App.g.cs
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\ModernUIForWPFSample.WithoutBackButton_MarkupCompile.cache
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\ModernUIForWPFSample.WithoutBackButton.g.resources
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\ModernUIForWPFSample.WithoutBackButton.Properties.Resources.resources
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\ModernUIForWPFSample.WithoutBackButton.csproj.GenerateResource.Cache
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\ModernUIForWPFSample.WithoutBackButton.exe
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\ModernUIForWPFSample.WithoutBackButton.pdb
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\ModernUIForWPFSample.WithoutBackButton.csprojResolveAssemblyReference.cache
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\Views\FixedOH.baml
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\Views\FixedOH.g.cs
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\Simple Styles.baml
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\Microsoft.Expression.Drawing.dll
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\de\Microsoft.Expression.Drawing.resources.dll
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\es\Microsoft.Expression.Drawing.resources.dll
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\fr\Microsoft.Expression.Drawing.resources.dll
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\it\Microsoft.Expression.Drawing.resources.dll
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\ja\Microsoft.Expression.Drawing.resources.dll
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\ko\Microsoft.Expression.Drawing.resources.dll
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\ru\Microsoft.Expression.Drawing.resources.dll
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\Views\Settings.baml
+E:\SLIIT\3r Year\1st Semester\SEP\project\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\Views\Settings.g.cs
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\ModernUIForWPFSample.WithoutBackButton.exe.config
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\ModernUIForWPFSample.WithoutBackButton.exe
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\ModernUIForWPFSample.WithoutBackButton.pdb
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\ModernUIForWPFSample.WithoutBackButton.exe
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\ModernUIForWPFSample.WithoutBackButton.pdb
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\FirstFloor.ModernUI.dll
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\Microsoft.Expression.Drawing.dll
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\FirstFloor.ModernUI.xml
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\de\Microsoft.Expression.Drawing.resources.dll
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\es\Microsoft.Expression.Drawing.resources.dll
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\fr\Microsoft.Expression.Drawing.resources.dll
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\it\Microsoft.Expression.Drawing.resources.dll
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\ja\Microsoft.Expression.Drawing.resources.dll
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\ko\Microsoft.Expression.Drawing.resources.dll
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\ru\Microsoft.Expression.Drawing.resources.dll
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\ModernUIForWPFSample.WithoutBackButton.csprojResolveAssemblyReference.cache
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\MainWindow.baml
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\Simple Styles.baml
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\Themes\ModernWindow.baml
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\Views\FixedOH.baml
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\Views\Settings.baml
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\Views\StepsControl.baml
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\App.baml
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\MainWindow.g.cs
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\Views\FixedOH.g.cs
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\Views\Settings.g.cs
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\Views\StepsControl.g.cs
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\App.g.cs
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\ModernUIForWPFSample.WithoutBackButton_MarkupCompile.cache
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\ModernUIForWPFSample.WithoutBackButton.g.resources
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\ModernUIForWPFSample.WithoutBackButton.Properties.Resources.resources
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\ModernUIForWPFSample.WithoutBackButton.csproj.GenerateResource.Cache
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\EntityFramework.dll
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\EntityFramework.SqlServer.dll
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\EntityFramework.xml
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\EntityFramework.SqlServer.xml
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\Views\firstOpen.baml
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\Views\firstOpen.g.cs
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\Views\StockLotPurchases.baml
+F:\SEP\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\Views\StockLotPurchases.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\ModernUIForWPFSample.WithoutBackButton.exe.config
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\ModernUIForWPFSample.WithoutBackButton.exe
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\ModernUIForWPFSample.WithoutBackButton.pdb
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\ModernUIForWPFSample.WithoutBackButton.exe
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\ModernUIForWPFSample.WithoutBackButton.pdb
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\EntityFramework.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\FirstFloor.ModernUI.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\EntityFramework.xml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\FirstFloor.ModernUI.xml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\de\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\es\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\fr\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\it\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\ja\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\ko\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\ru\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\bin\Debug\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\ModernUIForWPFSample.WithoutBackButton.csprojResolveAssemblyReference.cache
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\MainWindow.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\Simple Styles.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\Themes\ModernWindow.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\App.baml
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\MainWindow.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\App.g.cs
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\ModernUIForWPFSample.WithoutBackButton_MarkupCompile.cache
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\ModernUIForWPFSample.WithoutBackButton.g.resources
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\ModernUIForWPFSample.WithoutBackButton.Properties.Resources.resources
+C:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\obj\Debug\ModernUIForWPFSample.WithoutBackButton.csproj.GenerateResource.Cache

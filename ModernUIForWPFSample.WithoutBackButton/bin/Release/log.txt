@@ -1,0 +1,19 @@
+
+Log Entry : 3:44:36 PM Saturday, June 27, 2015
+ User : **********
+  :
+  :____________________________________________________________________
+-------------------------------
+
+Log Entry : 3:44:36 PM Saturday, June 27, 2015
+ User : **********
+  :
+  :InvalidOperationException at FixdOverHeadDAO -> getItemName() 6/27/2015 3:44:36 PM
+-------------------------------
+
+Log Entry : 3:44:36 PM Saturday, June 27, 2015
+ User : **********
+  :
+  :System.NullReferenceException: Object reference not set to an instance of an object.
+   at ModernUIForWPFSample.WithoutBackButton.Data.FOBActualCostDAO.getItemName(String id) in e:\SLIIT\3r Year\1st Semester\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\Data\FOBActualCostDAO.cs:line 559
+-------------------------------

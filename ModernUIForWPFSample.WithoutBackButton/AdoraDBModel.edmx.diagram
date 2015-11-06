@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e7febf9bfc924f9eb0f21f35089d84ad" Name="Diagram1">
+        <EntityTypeShape EntityType="adoraDBModel.Accessory" Width="1.5" PointX="3.75" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="adoraDBModel.AccessoryCost" Width="1.5" PointX="3.75" PointY="26.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="adoraDBModel.ActualCost" Width="1.5" PointX="1.5" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="adoraDBModel.BnSFrequency" Width="1.5" PointX="6" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="adoraDBModel.CurCategory" Width="1.5" PointX="1.5" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="adoraDBModel.Currency" Width="1.5" PointX="0.75" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="adoraDBModel.Fabric" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="adoraDBModel.FabricCost" Width="1.5" PointX="8.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="adoraDBModel.FixedOverhead" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="adoraDBModel.FOBSalesFrequency" Width="1.5" PointX="6" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="adoraDBModel.FOBSalesShipment" Width="1.5" PointX="0.75" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="adoraDBModel.Image" Width="1.5" PointX="6" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="adoraDBModel.ManageCurrency" Width="1.5" PointX="3" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="adoraDBModel.ManageFix" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="adoraDBModel.ManageFOBSalesShipment" Width="1.5" PointX="3" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="adoraDBModel.ManagePSDetail" Width="1.5" PointX="6" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="adoraDBModel.ManageStock" Width="1.5" PointX="6" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="adoraDBModel.PurchaseAccessory" Width="1.5" PointX="6" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="adoraDBModel.PurchaseFab" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="adoraDBModel.PurchasingShipment" Width="1.5" PointX="3.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="adoraDBModel.StockInHand" Width="1.5" PointX="3.75" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="adoraDBModel.User" Width="1.5" PointX="0.75" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="adoraDBModel.UserType" Width="1.5" PointX="5.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="adoraDBModel.showBnSDetail" Width="1.5" PointX="8.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="adoraDBModel.showCurDetail" Width="1.5" PointX="8.75" PointY="9.5" IsExpanded="true" />
+        <AssociationConnector Association="adoraDBModel.fk_PurchaseAccessories2" ManuallyRouted="false" />
+        <AssociationConnector Association="adoraDBModel.fk_AccessoryCost" ManuallyRouted="false" />
+        <AssociationConnector Association="adoraDBModel.fk_StockInHand" ManuallyRouted="false" />
+        <AssociationConnector Association="adoraDBModel.fk_BnSFrequency" ManuallyRouted="false" />
+        <AssociationConnector Association="adoraDBModel.fk_Currency" ManuallyRouted="false" />
+        <AssociationConnector Association="adoraDBModel.Fk_ManageCurrency2" ManuallyRouted="false" />
+        <AssociationConnector Association="adoraDBModel.fk_PurchaseFab2" ManuallyRouted="false" />
+        <AssociationConnector Association="adoraDBModel.fk_ManageFix2" ManuallyRouted="false" />
+        <AssociationConnector Association="adoraDBModel.fk_FOBSalesFreqyency" ManuallyRouted="false" />
+        <AssociationConnector Association="adoraDBModel.fk_ManageFOBSalesShipment2" ManuallyRouted="false" />
+        <AssociationConnector Association="adoraDBModel.fk_Image" ManuallyRouted="false" />
+        <AssociationConnector Association="adoraDBModel.Fk_ManageCurrency1" ManuallyRouted="false" />
+        <AssociationConnector Association="adoraDBModel.fk_ManageFix1" ManuallyRouted="false" />
+        <AssociationConnector Association="adoraDBModel.fk_ManageFOBSalesShipment1" ManuallyRouted="false" />
+        <AssociationConnector Association="adoraDBModel.pk_ManagePSDetails1" ManuallyRouted="false" />
+        <AssociationConnector Association="adoraDBModel.pk_ManagePSDetails2" ManuallyRouted="false" />
+        <AssociationConnector Association="adoraDBModel.fk_ManageStock1" ManuallyRouted="false" />
+        <AssociationConnector Association="adoraDBModel.fk_ManageStock2" ManuallyRouted="false" />
+        <AssociationConnector Association="adoraDBModel.fk_PurchaseAccessories1" ManuallyRouted="false" />
+        <AssociationConnector Association="adoraDBModel.fk_PurchaseFab" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

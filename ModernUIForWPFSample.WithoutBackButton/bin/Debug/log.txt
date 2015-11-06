@@ -1,0 +1,388 @@
+
+Log Entry : 12:40:47 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :System.ArgumentNullException: Value cannot be null.
+Parameter name: entity
+   at System.Data.Entity.Utilities.Check.NotNull[T](T value, String parameterName)
+   at System.Data.Entity.DbSet`1.Remove(TEntity entity)
+   at ModernUIForWPFSample.WithoutBackButton.Data.FOBActualCostDAO.deleteFromAcc(String id) in c:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\Data\FOBActualCostDAO.cs:line 530
+-------------------------------
+
+Log Entry : 1:30:45 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :System.Windows.RoutedEventArgs
+-------------------------------
+
+Log Entry : 2:44:13 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :____________________________________________________________________
+-------------------------------
+
+Log Entry : 2:44:13 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :InvalidOperationException at FixdOverHeadDAO -> getItemName() 5/10/2015 2:44:13 PM
+-------------------------------
+
+Log Entry : 2:44:13 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :System.NullReferenceException: Object reference not set to an instance of an object.
+   at ModernUIForWPFSample.WithoutBackButton.Data.FOBActualCostDAO.getItemName(String id) in c:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\Data\FOBActualCostDAO.cs:line 540
+-------------------------------
+
+Log Entry : 2:44:19 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :____________________________________________________________________
+-------------------------------
+
+Log Entry : 2:44:19 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :InvalidOperationException at FixdOverHeadDAO -> getItemName() 5/10/2015 2:44:19 PM
+-------------------------------
+
+Log Entry : 2:44:19 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :System.NullReferenceException: Object reference not set to an instance of an object.
+   at ModernUIForWPFSample.WithoutBackButton.Data.FOBActualCostDAO.getItemName(String id) in c:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\Data\FOBActualCostDAO.cs:line 540
+-------------------------------
+
+Log Entry : 2:44:25 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :____________________________________________________________________
+-------------------------------
+
+Log Entry : 2:44:25 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :InvalidOperationException at FixdOverHeadDAO -> getItemName() 5/10/2015 2:44:25 PM
+-------------------------------
+
+Log Entry : 2:44:25 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :System.NullReferenceException: Object reference not set to an instance of an object.
+   at ModernUIForWPFSample.WithoutBackButton.Data.FOBActualCostDAO.getItemName(String id) in c:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\Data\FOBActualCostDAO.cs:line 540
+-------------------------------
+
+Log Entry : 2:44:56 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :____________________________________________________________________
+-------------------------------
+
+Log Entry : 2:44:56 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :InvalidOperationException at FixdOverHeadDAO -> getItemName() 5/10/2015 2:44:56 PM
+-------------------------------
+
+Log Entry : 2:44:56 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :System.NullReferenceException: Object reference not set to an instance of an object.
+   at ModernUIForWPFSample.WithoutBackButton.Data.FOBActualCostDAO.getItemName(String id) in c:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\Data\FOBActualCostDAO.cs:line 540
+-------------------------------
+
+Log Entry : 2:45:00 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :____________________________________________________________________
+-------------------------------
+
+Log Entry : 2:45:00 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :InvalidOperationException at FixdOverHeadDAO -> getItemName() 5/10/2015 2:45:00 PM
+-------------------------------
+
+Log Entry : 2:45:00 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :System.NullReferenceException: Object reference not set to an instance of an object.
+   at ModernUIForWPFSample.WithoutBackButton.Data.FOBActualCostDAO.getItemName(String id) in c:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\Data\FOBActualCostDAO.cs:line 540
+-------------------------------
+
+Log Entry : 2:45:54 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :____________________________________________________________________
+-------------------------------
+
+Log Entry : 2:45:54 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :InvalidOperationException at FixdOverHeadDAO -> getItemName() 5/10/2015 2:45:54 PM
+-------------------------------
+
+Log Entry : 2:45:54 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :System.NullReferenceException: Object reference not set to an instance of an object.
+   at ModernUIForWPFSample.WithoutBackButton.Data.FOBActualCostDAO.getItemName(String id) in c:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\Data\FOBActualCostDAO.cs:line 540
+-------------------------------
+
+Log Entry : 5:23:22 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :____________________________________________________________________
+-------------------------------
+
+Log Entry : 5:23:22 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :Error at CurrencySettings -> getValue 5/10/2015 5:23:22 PM
+-------------------------------
+
+Log Entry : 5:23:22 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :System.Exception: Exception of type 'System.Exception' was thrown.
+-------------------------------
+
+Log Entry : 7:48:59 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :____________________________________________________________________
+-------------------------------
+
+Log Entry : 7:48:59 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :InvalidOperationException at FixdOverHeadDAO -> getItemName() 5/10/2015 7:48:59 PM
+-------------------------------
+
+Log Entry : 7:48:59 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :System.NullReferenceException: Object reference not set to an instance of an object.
+   at ModernUIForWPFSample.WithoutBackButton.Data.FOBActualCostDAO.getItemName(String id) in c:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\Data\FOBActualCostDAO.cs:line 540
+-------------------------------
+
+Log Entry : 10:21:41 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :____________________________________________________________________
+-------------------------------
+
+Log Entry : 10:21:41 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :InvalidOperationException at FixdOverHeadDAO -> getItemName() 5/10/2015 10:21:41 PM
+-------------------------------
+
+Log Entry : 10:21:41 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :System.NullReferenceException: Object reference not set to an instance of an object.
+   at ModernUIForWPFSample.WithoutBackButton.Data.FOBActualCostDAO.getItemName(String id) in c:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\Data\FOBActualCostDAO.cs:line 540
+-------------------------------
+
+Log Entry : 10:21:51 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :____________________________________________________________________
+-------------------------------
+
+Log Entry : 10:21:51 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :InvalidOperationException at FixdOverHeadDAO -> getItemName() 5/10/2015 10:21:51 PM
+-------------------------------
+
+Log Entry : 10:21:51 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :System.NullReferenceException: Object reference not set to an instance of an object.
+   at ModernUIForWPFSample.WithoutBackButton.Data.FOBActualCostDAO.getItemName(String id) in c:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\Data\FOBActualCostDAO.cs:line 540
+-------------------------------
+
+Log Entry : 10:24:24 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :____________________________________________________________________
+-------------------------------
+
+Log Entry : 10:24:24 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :InvalidOperationException at FixdOverHeadDAO -> getItemName() 5/10/2015 10:24:24 PM
+-------------------------------
+
+Log Entry : 10:24:24 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :System.NullReferenceException: Object reference not set to an instance of an object.
+   at ModernUIForWPFSample.WithoutBackButton.Data.FOBActualCostDAO.getItemName(String id) in c:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\Data\FOBActualCostDAO.cs:line 540
+-------------------------------
+
+Log Entry : 10:25:33 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :____________________________________________________________________
+-------------------------------
+
+Log Entry : 10:25:33 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :InvalidOperationException at FixdOverHeadDAO -> getItemName() 5/10/2015 10:25:33 PM
+-------------------------------
+
+Log Entry : 10:25:33 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :System.NullReferenceException: Object reference not set to an instance of an object.
+   at ModernUIForWPFSample.WithoutBackButton.Data.FOBActualCostDAO.getItemName(String id) in c:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\Data\FOBActualCostDAO.cs:line 540
+-------------------------------
+
+Log Entry : 10:25:36 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :____________________________________________________________________
+-------------------------------
+
+Log Entry : 10:25:36 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :InvalidOperationException at FixdOverHeadDAO -> DeleteAllActCost() 5/10/2015 10:25:36 PM
+-------------------------------
+
+Log Entry : 10:25:36 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__0[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.First[TSource](IQueryable`1 source, Expression`1 predicate)
+   at ModernUIForWPFSample.WithoutBackButton.Data.FOBActualCostDAO.DeleteAllActCost(String id) in c:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\Data\FOBActualCostDAO.cs:line 452
+-------------------------------
+
+Log Entry : 10:25:46 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :____________________________________________________________________
+-------------------------------
+
+Log Entry : 10:25:46 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :InvalidOperationException at FixdOverHeadDAO -> getItemName() 5/10/2015 10:25:46 PM
+-------------------------------
+
+Log Entry : 10:25:46 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :System.NullReferenceException: Object reference not set to an instance of an object.
+   at ModernUIForWPFSample.WithoutBackButton.Data.FOBActualCostDAO.getItemName(String id) in c:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\Data\FOBActualCostDAO.cs:line 540
+-------------------------------
+
+Log Entry : 10:25:48 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :____________________________________________________________________
+-------------------------------
+
+Log Entry : 10:25:48 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :InvalidOperationException at FixdOverHeadDAO -> DeleteAllActCost() 5/10/2015 10:25:48 PM
+-------------------------------
+
+Log Entry : 10:25:48 PM Sunday, May 10, 2015
+ User : **********
+  :
+  :System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__0[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.First[TSource](IQueryable`1 source, Expression`1 predicate)
+   at ModernUIForWPFSample.WithoutBackButton.Data.FOBActualCostDAO.DeleteAllActCost(String id) in c:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\Data\FOBActualCostDAO.cs:line 452
+-------------------------------
+
+Log Entry : 9:05:53 AM Monday, May 11, 2015
+ User : **********
+  :
+  :____________________________________________________________________
+-------------------------------
+
+Log Entry : 9:05:53 AM Monday, May 11, 2015
+ User : **********
+  :
+  :InvalidOperationException at FixdOverHeadDAO -> getItemName() 5/11/2015 9:05:53 AM
+-------------------------------
+
+Log Entry : 9:05:53 AM Monday, May 11, 2015
+ User : **********
+  :
+  :System.NullReferenceException: Object reference not set to an instance of an object.
+   at ModernUIForWPFSample.WithoutBackButton.Data.FOBActualCostDAO.getItemName(String id) in c:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\Data\FOBActualCostDAO.cs:line 540
+-------------------------------
+
+Log Entry : 9:06:01 AM Monday, May 11, 2015
+ User : **********
+  :
+  :____________________________________________________________________
+-------------------------------
+
+Log Entry : 9:06:01 AM Monday, May 11, 2015
+ User : **********
+  :
+  :InvalidOperationException at FixdOverHeadDAO -> getItemName() 5/11/2015 9:06:01 AM
+-------------------------------
+
+Log Entry : 9:06:01 AM Monday, May 11, 2015
+ User : **********
+  :
+  :System.NullReferenceException: Object reference not set to an instance of an object.
+   at ModernUIForWPFSample.WithoutBackButton.Data.FOBActualCostDAO.getItemName(String id) in c:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\Data\FOBActualCostDAO.cs:line 540
+-------------------------------
+
+Log Entry : 9:06:04 AM Monday, May 11, 2015
+ User : **********
+  :
+  :____________________________________________________________________
+-------------------------------
+
+Log Entry : 9:06:04 AM Monday, May 11, 2015
+ User : **********
+  :
+  :InvalidOperationException at FixdOverHeadDAO -> getItemName() 5/11/2015 9:06:04 AM
+-------------------------------
+
+Log Entry : 9:06:04 AM Monday, May 11, 2015
+ User : **********
+  :
+  :System.NullReferenceException: Object reference not set to an instance of an object.
+   at ModernUIForWPFSample.WithoutBackButton.Data.FOBActualCostDAO.getItemName(String id) in c:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\Data\FOBActualCostDAO.cs:line 540
+-------------------------------
+
+Log Entry : 6:14:40 PM Monday, May 11, 2015
+ User : **********
+  :
+  :____________________________________________________________________
+-------------------------------
+
+Log Entry : 6:14:40 PM Monday, May 11, 2015
+ User : **********
+  :
+  :InvalidOperationException at FixdOverHeadDAO -> getItemName() 5/11/2015 6:14:40 PM
+-------------------------------
+
+Log Entry : 6:14:40 PM Monday, May 11, 2015
+ User : **********
+  :
+  :System.NullReferenceException: Object reference not set to an instance of an object.
+   at ModernUIForWPFSample.WithoutBackButton.Data.FOBActualCostDAO.getItemName(String id) in c:\Users\Poorna Jayasinghe\Desktop\AdoraWith Validations FInal\AdoraApparel\src\ModernUIForWPFSample.WithoutBackButton\Data\FOBActualCostDAO.cs:line 548
+-------------------------------

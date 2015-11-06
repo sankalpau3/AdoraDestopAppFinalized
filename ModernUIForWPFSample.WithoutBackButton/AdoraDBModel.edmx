@@ -1,0 +1,1626 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="adoraDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Accessories">
+          <Key>
+            <PropertyRef Name="AccID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="AccID" Type="varchar" MaxLength="11" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Category" Type="varchar" MaxLength="100" />
+          <Property Name="UnitType" Type="varchar" MaxLength="20" />
+          <Property Name="PricePerUnit" Type="money" />
+          <Property Name="NoOfUnits" Type="real" />
+          <Property Name="TransportCost" Type="money" />
+          <Property Name="Date" Type="datetime" />
+        </EntityType>
+        <EntityType Name="AccessoryCost">
+          <Key>
+            <PropertyRef Name="AccCostID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="AccCostID" Type="varchar" MaxLength="12" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Type" Type="varchar" MaxLength="200" />
+          <Property Name="Amount" Type="real" />
+          <Property Name="Cost" Type="money" />
+          <Property Name="Unit" Type="varchar" MaxLength="10" />
+          <Property Name="ACostID" Type="varchar" MaxLength="11" />
+          <Property Name="wieghtPitem" Type="real" />
+          <Property Name="costPerHundredgms" Type="real" />
+        </EntityType>
+        <EntityType Name="ActualCost">
+          <Key>
+            <PropertyRef Name="ACostID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ACostID" Type="varchar" MaxLength="11" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CM" Type="varchar" MaxLength="100" />
+          <Property Name="TotalCost" Type="money" />
+        </EntityType>
+        <EntityType Name="BnSFrequency">
+          <Key>
+            <PropertyRef Name="ShipmentID" />
+            <PropertyRef Name="FrequencyID" />
+          </Key>
+          <Property Name="ShipmentID" Type="varchar" MaxLength="12" Nullable="false" />
+          <Property Name="FrequencyID" Type="int" Nullable="false" />
+          <Property Name="NoOfPieces" Type="int" />
+          <Property Name="PricePerPiece" Type="money" />
+          <Property Name="Date" Type="date" />
+        </EntityType>
+        <EntityType Name="CurCategory">
+          <Key>
+            <PropertyRef Name="CurCatID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CurCatID" Type="varchar" MaxLength="12" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Category" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Currency">
+          <Key>
+            <PropertyRef Name="CurrencyID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CurrencyID" Type="varchar" MaxLength="11" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Value" Type="money" />
+          <Property Name="CurrencyCategory" Type="varchar" MaxLength="12" />
+          <Property Name="change" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Fabric">
+          <Key>
+            <PropertyRef Name="FabID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FabID" Type="varchar" MaxLength="11" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Category" Type="varchar" MaxLength="100" />
+          <Property Name="PricePerYard" Type="money" />
+          <Property Name="Yardage" Type="real" />
+          <Property Name="TransportCost" Type="money" />
+          <Property Name="Date" Type="datetime" />
+        </EntityType>
+        <EntityType Name="FabricCost">
+          <Key>
+            <PropertyRef Name="FabCostID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FabCostID" Type="varchar" MaxLength="12" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Type" Type="varchar" MaxLength="200" />
+          <Property Name="Amount" Type="real" />
+          <Property Name="Cost" Type="money" />
+          <Property Name="ACostID" Type="varchar" MaxLength="11" />
+          <Property Name="costPyard" Type="real" />
+        </EntityType>
+        <EntityType Name="FixedOverheads">
+          <Key>
+            <PropertyRef Name="FixID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FixID" Type="varchar" MaxLength="11" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Year" Type="int" />
+          <Property Name="Month" Type="int" />
+          <Property Name="Electricity" Type="money" />
+          <Property Name="Tax" Type="money" />
+          <Property Name="Water" Type="money" />
+          <Property Name="Salary" Type="money" />
+          <Property Name="RentOrMortgage" Type="money" />
+          <Property Name="PhoneAnInternet" Type="money" />
+          <Property Name="Fuel" Type="money" />
+          <Property Name="Misc" Type="money" />
+          <Property Name="Ot" Type="money" />
+          <Property Name="Other" Type="money" />
+        </EntityType>
+        <EntityType Name="FOBSalesFrequency">
+          <Key>
+            <PropertyRef Name="ShipmentID" />
+            <PropertyRef Name="FrequencyID" />
+          </Key>
+          <Property Name="ShipmentID" Type="varchar" MaxLength="11" Nullable="false" />
+          <Property Name="FrequencyID" Type="int" Nullable="false" />
+          <Property Name="NoOfPieces" Type="int" />
+          <Property Name="PricePerPiece" Type="money" />
+          <Property Name="Date" Type="date" />
+        </EntityType>
+        <EntityType Name="FOBSalesShipments">
+          <Key>
+            <PropertyRef Name="ShipmentID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ShipmentID" Type="varchar" MaxLength="12" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Title" Type="varchar" MaxLength="300" />
+          <Property Name="NoOfPieces" Type="int" />
+          <Property Name="PricePerPiece" Type="money" />
+          <Property Name="Date" Type="date" />
+        </EntityType>
+        <EntityType Name="Image">
+          <Key>
+            <PropertyRef Name="ImageID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ImageID" Type="varchar" MaxLength="11" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Link" Type="varchar" MaxLength="500" />
+          <Property Name="StockID" Type="varchar" MaxLength="11" />
+        </EntityType>
+        <EntityType Name="ManageCurrency">
+          <Key>
+            <PropertyRef Name="UserName" />
+            <PropertyRef Name="CurrencyID" />
+          </Key>
+          <Property Name="UserName" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="CurrencyID" Type="varchar" MaxLength="11" Nullable="false" />
+          <Property Name="datetime" Type="datetime" />
+        </EntityType>
+        <EntityType Name="ManageFix">
+          <Key>
+            <PropertyRef Name="UserName" />
+            <PropertyRef Name="FixID" />
+          </Key>
+          <Property Name="UserName" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="FixID" Type="varchar" MaxLength="11" Nullable="false" />
+          <Property Name="datetime" Type="datetime" />
+        </EntityType>
+        <EntityType Name="ManageFOBSalesShipment">
+          <Key>
+            <PropertyRef Name="UserName" />
+            <PropertyRef Name="ShipmentID" />
+          </Key>
+          <Property Name="UserName" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="ShipmentID" Type="varchar" MaxLength="12" Nullable="false" />
+          <Property Name="DateTime" Type="datetime" />
+        </EntityType>
+        <EntityType Name="ManagePSDetails">
+          <Key>
+            <PropertyRef Name="UserName" />
+            <PropertyRef Name="ShipmentID" />
+          </Key>
+          <Property Name="UserName" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="ShipmentID" Type="varchar" MaxLength="12" Nullable="false" />
+          <Property Name="DateTime" Type="datetime" />
+        </EntityType>
+        <EntityType Name="ManageStock">
+          <Key>
+            <PropertyRef Name="StockID" />
+            <PropertyRef Name="UserName" />
+          </Key>
+          <Property Name="StockID" Type="varchar" MaxLength="11" Nullable="false" />
+          <Property Name="UserName" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="DateTime" Type="datetime" />
+        </EntityType>
+        <EntityType Name="PurchaseAccessories">
+          <Key>
+            <PropertyRef Name="UserName" />
+            <PropertyRef Name="AccID" />
+          </Key>
+          <Property Name="UserName" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="AccID" Type="varchar" MaxLength="11" Nullable="false" />
+          <Property Name="DateTime" Type="datetime" />
+        </EntityType>
+        <EntityType Name="PurchaseFab">
+          <Key>
+            <PropertyRef Name="UserName" />
+            <PropertyRef Name="FabID" />
+          </Key>
+          <Property Name="UserName" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="FabID" Type="varchar" MaxLength="11" Nullable="false" />
+          <Property Name="DateTime" Type="datetime" />
+        </EntityType>
+        <EntityType Name="PurchasingShipments">
+          <Key>
+            <PropertyRef Name="ShipmentID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ShipmentID" Type="varchar" MaxLength="12" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Title" Type="varchar" MaxLength="300" />
+          <Property Name="NoOfPieces" Type="int" />
+          <Property Name="PricePerPiece" Type="money" />
+          <Property Name="ActualCostPerPiece" Type="money" />
+          <Property Name="Micelleneous" Type="money" />
+          <Property Name="date" Type="datetime" />
+          <Property Name="TransportCost" Type="money" />
+          <Property Name="SupplierCommission" Type="money" />
+        </EntityType>
+        <EntityType Name="StockInHand">
+          <Key>
+            <PropertyRef Name="StockID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="StockID" Type="varchar" MaxLength="11" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FactoryName" Type="varchar" MaxLength="200" />
+          <Property Name="ItemName" Type="varchar" MaxLength="200" />
+          <Property Name="Date" Type="datetime" />
+          <Property Name="ACostID" Type="varchar" MaxLength="11" />
+          <Property Name="NoOfItems" Type="int" />
+          <Property Name="descript" Type="varchar" MaxLength="200" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="UserName" />
+          </Key>
+          <Property Name="UserName" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="password" Type="varchar" MaxLength="100" />
+          <Property Name="NIC" Type="varchar" MaxLength="50" />
+          <Property Name="Email" Type="varchar" MaxLength="100" />
+          <Property Name="Name" Type="varchar" MaxLength="100" />
+          <Property Name="Type" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="UserType">
+          <Key>
+            <PropertyRef Name="UserTypeID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserTypeID" Type="varchar" MaxLength="11" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserTypeName" Type="varchar" MaxLength="100" />
+          <Property Name="Description" Type="varchar" MaxLength="200" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'adoraDB.dbo.showActualCostDetails' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="showActualCostDetails">
+          <Property Name="FactoryName" Type="varchar" MaxLength="200" />
+          <Property Name="ItemName" Type="varchar" MaxLength="200" />
+          <Property Name="ACostID" Type="varchar" MaxLength="11" />
+          <Property Name="TotalCost" Type="money" />
+        </EntityType>-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'adoraDB.dbo.showBnSDetails' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="showBnSDetails">
+          <Key>
+            <PropertyRef Name="Shipment Name" />
+            <PropertyRef Name="Frequency Date" />
+            <PropertyRef Name="Frequency No" />
+          </Key>
+          <Property Name="Shipment Name" Type="varchar" MaxLength="300" Nullable="false" />
+          <Property Name="Frequency Date" Type="date" Nullable="false" />
+          <Property Name="Frequency No" Type="int" Nullable="false" />
+          <Property Name="Number of Pieces" Type="int" />
+          <Property Name="Price per piece" Type="money" />
+          <Property Name="Total Gross" Type="money" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'adoraDB.dbo.showCurDetails' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="showCurDetails">
+          <Key>
+            <PropertyRef Name="Type" />
+          </Key>
+          <Property Name="Type" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Current Value" Type="money" />
+        </EntityType>
+        <Association Name="fk_AccessoryCost">
+          <End Role="ActualCost" Type="Self.ActualCost" Multiplicity="0..1" />
+          <End Role="AccessoryCost" Type="Self.AccessoryCost" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ActualCost">
+              <PropertyRef Name="ACostID" />
+            </Principal>
+            <Dependent Role="AccessoryCost">
+              <PropertyRef Name="ACostID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_BnSFrequency">
+          <End Role="PurchasingShipments" Type="Self.PurchasingShipments" Multiplicity="1" />
+          <End Role="BnSFrequency" Type="Self.BnSFrequency" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PurchasingShipments">
+              <PropertyRef Name="ShipmentID" />
+            </Principal>
+            <Dependent Role="BnSFrequency">
+              <PropertyRef Name="ShipmentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_Currency">
+          <End Role="CurCategory" Type="Self.CurCategory" Multiplicity="0..1" />
+          <End Role="Currency" Type="Self.Currency" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CurCategory">
+              <PropertyRef Name="CurCatID" />
+            </Principal>
+            <Dependent Role="Currency">
+              <PropertyRef Name="CurrencyCategory" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_FOBSalesFreqyency">
+          <End Role="StockInHand" Type="Self.StockInHand" Multiplicity="1" />
+          <End Role="FOBSalesFrequency" Type="Self.FOBSalesFrequency" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="StockInHand">
+              <PropertyRef Name="StockID" />
+            </Principal>
+            <Dependent Role="FOBSalesFrequency">
+              <PropertyRef Name="ShipmentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_Image">
+          <End Role="StockInHand" Type="Self.StockInHand" Multiplicity="0..1" />
+          <End Role="Image" Type="Self.Image" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="StockInHand">
+              <PropertyRef Name="StockID" />
+            </Principal>
+            <Dependent Role="Image">
+              <PropertyRef Name="StockID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Fk_ManageCurrency1">
+          <End Role="User" Type="Self.User" Multiplicity="1" />
+          <End Role="ManageCurrency" Type="Self.ManageCurrency" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserName" />
+            </Principal>
+            <Dependent Role="ManageCurrency">
+              <PropertyRef Name="UserName" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Fk_ManageCurrency2">
+          <End Role="Currency" Type="Self.Currency" Multiplicity="1" />
+          <End Role="ManageCurrency" Type="Self.ManageCurrency" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Currency">
+              <PropertyRef Name="CurrencyID" />
+            </Principal>
+            <Dependent Role="ManageCurrency">
+              <PropertyRef Name="CurrencyID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_ManageFix1">
+          <End Role="User" Type="Self.User" Multiplicity="1" />
+          <End Role="ManageFix" Type="Self.ManageFix" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserName" />
+            </Principal>
+            <Dependent Role="ManageFix">
+              <PropertyRef Name="UserName" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_ManageFix2">
+          <End Role="FixedOverheads" Type="Self.FixedOverheads" Multiplicity="1" />
+          <End Role="ManageFix" Type="Self.ManageFix" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="FixedOverheads">
+              <PropertyRef Name="FixID" />
+            </Principal>
+            <Dependent Role="ManageFix">
+              <PropertyRef Name="FixID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_ManageFOBSalesShipment1">
+          <End Role="User" Type="Self.User" Multiplicity="1" />
+          <End Role="ManageFOBSalesShipment" Type="Self.ManageFOBSalesShipment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserName" />
+            </Principal>
+            <Dependent Role="ManageFOBSalesShipment">
+              <PropertyRef Name="UserName" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_ManageFOBSalesShipment2">
+          <End Role="FOBSalesShipments" Type="Self.FOBSalesShipments" Multiplicity="1" />
+          <End Role="ManageFOBSalesShipment" Type="Self.ManageFOBSalesShipment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="FOBSalesShipments">
+              <PropertyRef Name="ShipmentID" />
+            </Principal>
+            <Dependent Role="ManageFOBSalesShipment">
+              <PropertyRef Name="ShipmentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_ManageStock1">
+          <End Role="User" Type="Self.User" Multiplicity="1" />
+          <End Role="ManageStock" Type="Self.ManageStock" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserName" />
+            </Principal>
+            <Dependent Role="ManageStock">
+              <PropertyRef Name="UserName" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_ManageStock2">
+          <End Role="StockInHand" Type="Self.StockInHand" Multiplicity="1" />
+          <End Role="ManageStock" Type="Self.ManageStock" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="StockInHand">
+              <PropertyRef Name="StockID" />
+            </Principal>
+            <Dependent Role="ManageStock">
+              <PropertyRef Name="StockID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_PurchaseAccessories1">
+          <End Role="User" Type="Self.User" Multiplicity="1" />
+          <End Role="PurchaseAccessories" Type="Self.PurchaseAccessories" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserName" />
+            </Principal>
+            <Dependent Role="PurchaseAccessories">
+              <PropertyRef Name="UserName" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_PurchaseAccessories2">
+          <End Role="Accessories" Type="Self.Accessories" Multiplicity="1" />
+          <End Role="PurchaseAccessories" Type="Self.PurchaseAccessories" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Accessories">
+              <PropertyRef Name="AccID" />
+            </Principal>
+            <Dependent Role="PurchaseAccessories">
+              <PropertyRef Name="AccID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_PurchaseFab">
+          <End Role="User" Type="Self.User" Multiplicity="1" />
+          <End Role="PurchaseFab" Type="Self.PurchaseFab" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserName" />
+            </Principal>
+            <Dependent Role="PurchaseFab">
+              <PropertyRef Name="UserName" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_PurchaseFab2">
+          <End Role="Fabric" Type="Self.Fabric" Multiplicity="1" />
+          <End Role="PurchaseFab" Type="Self.PurchaseFab" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Fabric">
+              <PropertyRef Name="FabID" />
+            </Principal>
+            <Dependent Role="PurchaseFab">
+              <PropertyRef Name="FabID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_StockInHand">
+          <End Role="ActualCost" Type="Self.ActualCost" Multiplicity="0..1" />
+          <End Role="StockInHand" Type="Self.StockInHand" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ActualCost">
+              <PropertyRef Name="ACostID" />
+            </Principal>
+            <Dependent Role="StockInHand">
+              <PropertyRef Name="ACostID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="pk_ManagePSDetails1">
+          <End Role="User" Type="Self.User" Multiplicity="1" />
+          <End Role="ManagePSDetails" Type="Self.ManagePSDetails" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserName" />
+            </Principal>
+            <Dependent Role="ManagePSDetails">
+              <PropertyRef Name="UserName" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="pk_ManagePSDetails2">
+          <End Role="PurchasingShipments" Type="Self.PurchasingShipments" Multiplicity="1" />
+          <End Role="ManagePSDetails" Type="Self.ManagePSDetails" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PurchasingShipments">
+              <PropertyRef Name="ShipmentID" />
+            </Principal>
+            <Dependent Role="ManagePSDetails">
+              <PropertyRef Name="ShipmentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="adoraDBModelStoreContainer">
+          <EntitySet Name="Accessories" EntityType="Self.Accessories" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AccessoryCost" EntityType="Self.AccessoryCost" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ActualCost" EntityType="Self.ActualCost" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="BnSFrequency" EntityType="Self.BnSFrequency" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CurCategory" EntityType="Self.CurCategory" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Currency" EntityType="Self.Currency" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Fabric" EntityType="Self.Fabric" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="FabricCost" EntityType="Self.FabricCost" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="FixedOverheads" EntityType="Self.FixedOverheads" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="FOBSalesFrequency" EntityType="Self.FOBSalesFrequency" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="FOBSalesShipments" EntityType="Self.FOBSalesShipments" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Image" EntityType="Self.Image" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ManageCurrency" EntityType="Self.ManageCurrency" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ManageFix" EntityType="Self.ManageFix" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ManageFOBSalesShipment" EntityType="Self.ManageFOBSalesShipment" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ManagePSDetails" EntityType="Self.ManagePSDetails" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ManageStock" EntityType="Self.ManageStock" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PurchaseAccessories" EntityType="Self.PurchaseAccessories" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PurchaseFab" EntityType="Self.PurchaseFab" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PurchasingShipments" EntityType="Self.PurchasingShipments" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="StockInHand" EntityType="Self.StockInHand" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UserType" EntityType="Self.UserType" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="showBnSDetails" EntityType="Self.showBnSDetails" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [showBnSDetails].[Shipment Name] AS [Shipment Name], 
+    [showBnSDetails].[Frequency Date] AS [Frequency Date], 
+    [showBnSDetails].[Frequency No] AS [Frequency No], 
+    [showBnSDetails].[Number of Pieces] AS [Number of Pieces], 
+    [showBnSDetails].[Price per piece] AS [Price per piece], 
+    [showBnSDetails].[Total Gross] AS [Total Gross]
+    FROM [dbo].[showBnSDetails] AS [showBnSDetails]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="showCurDetails" EntityType="Self.showCurDetails" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [showCurDetails].[Type] AS [Type], 
+    [showCurDetails].[Current Value] AS [Current Value]
+    FROM [dbo].[showCurDetails] AS [showCurDetails]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="fk_AccessoryCost" Association="Self.fk_AccessoryCost">
+            <End Role="ActualCost" EntitySet="ActualCost" />
+            <End Role="AccessoryCost" EntitySet="AccessoryCost" />
+          </AssociationSet>
+          <AssociationSet Name="fk_BnSFrequency" Association="Self.fk_BnSFrequency">
+            <End Role="PurchasingShipments" EntitySet="PurchasingShipments" />
+            <End Role="BnSFrequency" EntitySet="BnSFrequency" />
+          </AssociationSet>
+          <AssociationSet Name="fk_Currency" Association="Self.fk_Currency">
+            <End Role="CurCategory" EntitySet="CurCategory" />
+            <End Role="Currency" EntitySet="Currency" />
+          </AssociationSet>
+          <AssociationSet Name="fk_FOBSalesFreqyency" Association="Self.fk_FOBSalesFreqyency">
+            <End Role="StockInHand" EntitySet="StockInHand" />
+            <End Role="FOBSalesFrequency" EntitySet="FOBSalesFrequency" />
+          </AssociationSet>
+          <AssociationSet Name="fk_Image" Association="Self.fk_Image">
+            <End Role="StockInHand" EntitySet="StockInHand" />
+            <End Role="Image" EntitySet="Image" />
+          </AssociationSet>
+          <AssociationSet Name="Fk_ManageCurrency1" Association="Self.Fk_ManageCurrency1">
+            <End Role="User" EntitySet="User" />
+            <End Role="ManageCurrency" EntitySet="ManageCurrency" />
+          </AssociationSet>
+          <AssociationSet Name="Fk_ManageCurrency2" Association="Self.Fk_ManageCurrency2">
+            <End Role="Currency" EntitySet="Currency" />
+            <End Role="ManageCurrency" EntitySet="ManageCurrency" />
+          </AssociationSet>
+          <AssociationSet Name="fk_ManageFix1" Association="Self.fk_ManageFix1">
+            <End Role="User" EntitySet="User" />
+            <End Role="ManageFix" EntitySet="ManageFix" />
+          </AssociationSet>
+          <AssociationSet Name="fk_ManageFix2" Association="Self.fk_ManageFix2">
+            <End Role="FixedOverheads" EntitySet="FixedOverheads" />
+            <End Role="ManageFix" EntitySet="ManageFix" />
+          </AssociationSet>
+          <AssociationSet Name="fk_ManageFOBSalesShipment1" Association="Self.fk_ManageFOBSalesShipment1">
+            <End Role="User" EntitySet="User" />
+            <End Role="ManageFOBSalesShipment" EntitySet="ManageFOBSalesShipment" />
+          </AssociationSet>
+          <AssociationSet Name="fk_ManageFOBSalesShipment2" Association="Self.fk_ManageFOBSalesShipment2">
+            <End Role="FOBSalesShipments" EntitySet="FOBSalesShipments" />
+            <End Role="ManageFOBSalesShipment" EntitySet="ManageFOBSalesShipment" />
+          </AssociationSet>
+          <AssociationSet Name="fk_ManageStock1" Association="Self.fk_ManageStock1">
+            <End Role="User" EntitySet="User" />
+            <End Role="ManageStock" EntitySet="ManageStock" />
+          </AssociationSet>
+          <AssociationSet Name="fk_ManageStock2" Association="Self.fk_ManageStock2">
+            <End Role="StockInHand" EntitySet="StockInHand" />
+            <End Role="ManageStock" EntitySet="ManageStock" />
+          </AssociationSet>
+          <AssociationSet Name="fk_PurchaseAccessories1" Association="Self.fk_PurchaseAccessories1">
+            <End Role="User" EntitySet="User" />
+            <End Role="PurchaseAccessories" EntitySet="PurchaseAccessories" />
+          </AssociationSet>
+          <AssociationSet Name="fk_PurchaseAccessories2" Association="Self.fk_PurchaseAccessories2">
+            <End Role="Accessories" EntitySet="Accessories" />
+            <End Role="PurchaseAccessories" EntitySet="PurchaseAccessories" />
+          </AssociationSet>
+          <AssociationSet Name="fk_PurchaseFab" Association="Self.fk_PurchaseFab">
+            <End Role="User" EntitySet="User" />
+            <End Role="PurchaseFab" EntitySet="PurchaseFab" />
+          </AssociationSet>
+          <AssociationSet Name="fk_PurchaseFab2" Association="Self.fk_PurchaseFab2">
+            <End Role="Fabric" EntitySet="Fabric" />
+            <End Role="PurchaseFab" EntitySet="PurchaseFab" />
+          </AssociationSet>
+          <AssociationSet Name="fk_StockInHand" Association="Self.fk_StockInHand">
+            <End Role="ActualCost" EntitySet="ActualCost" />
+            <End Role="StockInHand" EntitySet="StockInHand" />
+          </AssociationSet>
+          <AssociationSet Name="pk_ManagePSDetails1" Association="Self.pk_ManagePSDetails1">
+            <End Role="User" EntitySet="User" />
+            <End Role="ManagePSDetails" EntitySet="ManagePSDetails" />
+          </AssociationSet>
+          <AssociationSet Name="pk_ManagePSDetails2" Association="Self.pk_ManagePSDetails2">
+            <End Role="PurchasingShipments" EntitySet="PurchasingShipments" />
+            <End Role="ManagePSDetails" EntitySet="ManagePSDetails" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="adoraDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Accessory">
+          <Key>
+            <PropertyRef Name="AccID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AccID" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Category" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="UnitType" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="PricePerUnit" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="NoOfUnits" Type="Single" />
+          <Property Name="TransportCost" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Date" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="PurchaseAccessories" Relationship="Self.fk_PurchaseAccessories2" FromRole="Accessories" ToRole="PurchaseAccessories" />
+        </EntityType>
+        <EntityType Name="AccessoryCost">
+          <Key>
+            <PropertyRef Name="AccCostID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AccCostID" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Type" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="Amount" Type="Single" />
+          <Property Name="Cost" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Unit" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ACostID" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+          <Property Name="wieghtPitem" Type="Single" />
+          <Property Name="costPerHundredgms" Type="Single" />
+          <NavigationProperty Name="ActualCost" Relationship="Self.fk_AccessoryCost" FromRole="AccessoryCost" ToRole="ActualCost" />
+        </EntityType>
+        <EntityType Name="ActualCost">
+          <Key>
+            <PropertyRef Name="ACostID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ACostID" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CM" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="TotalCost" Type="Decimal" Precision="19" Scale="4" />
+          <NavigationProperty Name="AccessoryCosts" Relationship="Self.fk_AccessoryCost" FromRole="ActualCost" ToRole="AccessoryCost" />
+          <NavigationProperty Name="StockInHands" Relationship="Self.fk_StockInHand" FromRole="ActualCost" ToRole="StockInHand" />
+        </EntityType>
+        <EntityType Name="BnSFrequency">
+          <Key>
+            <PropertyRef Name="ShipmentID" />
+            <PropertyRef Name="FrequencyID" />
+          </Key>
+          <Property Name="ShipmentID" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="FrequencyID" Type="Int32" Nullable="false" />
+          <Property Name="NoOfPieces" Type="Int32" />
+          <Property Name="PricePerPiece" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Date" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="PurchasingShipment" Relationship="Self.fk_BnSFrequency" FromRole="BnSFrequency" ToRole="PurchasingShipments" />
+        </EntityType>
+        <EntityType Name="CurCategory">
+          <Key>
+            <PropertyRef Name="CurCatID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CurCatID" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Category" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Currencies" Relationship="Self.fk_Currency" FromRole="CurCategory" ToRole="Currency" />
+        </EntityType>
+        <EntityType Name="Currency">
+          <Key>
+            <PropertyRef Name="CurrencyID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CurrencyID" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Value" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="CurrencyCategory" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+          <Property Name="change" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="CurCategory" Relationship="Self.fk_Currency" FromRole="Currency" ToRole="CurCategory" />
+          <NavigationProperty Name="ManageCurrencies" Relationship="Self.Fk_ManageCurrency2" FromRole="Currency" ToRole="ManageCurrency" />
+        </EntityType>
+        <EntityType Name="Fabric">
+          <Key>
+            <PropertyRef Name="FabID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FabID" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Category" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="PricePerYard" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Yardage" Type="Single" />
+          <Property Name="TransportCost" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Date" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="PurchaseFabs" Relationship="Self.fk_PurchaseFab2" FromRole="Fabric" ToRole="PurchaseFab" />
+        </EntityType>
+        <EntityType Name="FabricCost">
+          <Key>
+            <PropertyRef Name="FabCostID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FabCostID" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Type" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="Amount" Type="Single" />
+          <Property Name="Cost" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="ACostID" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+          <Property Name="costPyard" Type="Single" />
+        </EntityType>
+        <EntityType Name="FixedOverhead">
+          <Key>
+            <PropertyRef Name="FixID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FixID" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Year" Type="Int32" />
+          <Property Name="Month" Type="Int32" />
+          <Property Name="Electricity" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Tax" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Water" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Salary" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="RentOrMortgage" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="PhoneAnInternet" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Fuel" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Misc" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Ot" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Other" Type="Decimal" Precision="19" Scale="4" />
+          <NavigationProperty Name="ManageFixes" Relationship="Self.fk_ManageFix2" FromRole="FixedOverheads" ToRole="ManageFix" />
+        </EntityType>
+        <EntityType Name="FOBSalesFrequency">
+          <Key>
+            <PropertyRef Name="ShipmentID" />
+            <PropertyRef Name="FrequencyID" />
+          </Key>
+          <Property Name="ShipmentID" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="FrequencyID" Type="Int32" Nullable="false" />
+          <Property Name="NoOfPieces" Type="Int32" />
+          <Property Name="PricePerPiece" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Date" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="StockInHand" Relationship="Self.fk_FOBSalesFreqyency" FromRole="FOBSalesFrequency" ToRole="StockInHand" />
+        </EntityType>
+        <EntityType Name="FOBSalesShipment">
+          <Key>
+            <PropertyRef Name="ShipmentID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ShipmentID" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+          <Property Name="NoOfPieces" Type="Int32" />
+          <Property Name="PricePerPiece" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Date" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="ManageFOBSalesShipments" Relationship="Self.fk_ManageFOBSalesShipment2" FromRole="FOBSalesShipments" ToRole="ManageFOBSalesShipment" />
+        </EntityType>
+        <EntityType Name="Image">
+          <Key>
+            <PropertyRef Name="ImageID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ImageID" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Link" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="StockID" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="StockInHand" Relationship="Self.fk_Image" FromRole="Image" ToRole="StockInHand" />
+        </EntityType>
+        <EntityType Name="ManageCurrency">
+          <Key>
+            <PropertyRef Name="UserName" />
+            <PropertyRef Name="CurrencyID" />
+          </Key>
+          <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CurrencyID" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="datetime" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Currency" Relationship="Self.Fk_ManageCurrency2" FromRole="ManageCurrency" ToRole="Currency" />
+          <NavigationProperty Name="User" Relationship="Self.Fk_ManageCurrency1" FromRole="ManageCurrency" ToRole="User" />
+        </EntityType>
+        <EntityType Name="ManageFix">
+          <Key>
+            <PropertyRef Name="UserName" />
+            <PropertyRef Name="FixID" />
+          </Key>
+          <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="FixID" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="datetime" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="FixedOverhead" Relationship="Self.fk_ManageFix2" FromRole="ManageFix" ToRole="FixedOverheads" />
+          <NavigationProperty Name="User" Relationship="Self.fk_ManageFix1" FromRole="ManageFix" ToRole="User" />
+        </EntityType>
+        <EntityType Name="ManageFOBSalesShipment">
+          <Key>
+            <PropertyRef Name="UserName" />
+            <PropertyRef Name="ShipmentID" />
+          </Key>
+          <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ShipmentID" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DateTime" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="FOBSalesShipment" Relationship="Self.fk_ManageFOBSalesShipment2" FromRole="ManageFOBSalesShipment" ToRole="FOBSalesShipments" />
+          <NavigationProperty Name="User" Relationship="Self.fk_ManageFOBSalesShipment1" FromRole="ManageFOBSalesShipment" ToRole="User" />
+        </EntityType>
+        <EntityType Name="ManagePSDetail">
+          <Key>
+            <PropertyRef Name="UserName" />
+            <PropertyRef Name="ShipmentID" />
+          </Key>
+          <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ShipmentID" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DateTime" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="User" Relationship="Self.pk_ManagePSDetails1" FromRole="ManagePSDetails" ToRole="User" />
+          <NavigationProperty Name="PurchasingShipment" Relationship="Self.pk_ManagePSDetails2" FromRole="ManagePSDetails" ToRole="PurchasingShipments" />
+        </EntityType>
+        <EntityType Name="ManageStock">
+          <Key>
+            <PropertyRef Name="StockID" />
+            <PropertyRef Name="UserName" />
+          </Key>
+          <Property Name="StockID" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DateTime" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="User" Relationship="Self.fk_ManageStock1" FromRole="ManageStock" ToRole="User" />
+          <NavigationProperty Name="StockInHand" Relationship="Self.fk_ManageStock2" FromRole="ManageStock" ToRole="StockInHand" />
+        </EntityType>
+        <EntityType Name="PurchaseAccessory">
+          <Key>
+            <PropertyRef Name="UserName" />
+            <PropertyRef Name="AccID" />
+          </Key>
+          <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="AccID" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DateTime" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Accessory" Relationship="Self.fk_PurchaseAccessories2" FromRole="PurchaseAccessories" ToRole="Accessories" />
+          <NavigationProperty Name="User" Relationship="Self.fk_PurchaseAccessories1" FromRole="PurchaseAccessories" ToRole="User" />
+        </EntityType>
+        <EntityType Name="PurchaseFab">
+          <Key>
+            <PropertyRef Name="UserName" />
+            <PropertyRef Name="FabID" />
+          </Key>
+          <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="FabID" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DateTime" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Fabric" Relationship="Self.fk_PurchaseFab2" FromRole="PurchaseFab" ToRole="Fabric" />
+          <NavigationProperty Name="User" Relationship="Self.fk_PurchaseFab" FromRole="PurchaseFab" ToRole="User" />
+        </EntityType>
+        <EntityType Name="PurchasingShipment">
+          <Key>
+            <PropertyRef Name="ShipmentID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ShipmentID" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+          <Property Name="NoOfPieces" Type="Int32" />
+          <Property Name="PricePerPiece" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="ActualCostPerPiece" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Micelleneous" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="date" Type="DateTime" Precision="3" />
+          <Property Name="TransportCost" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="SupplierCommission" Type="Decimal" Precision="19" Scale="4" />
+          <NavigationProperty Name="BnSFrequencies" Relationship="Self.fk_BnSFrequency" FromRole="PurchasingShipments" ToRole="BnSFrequency" />
+          <NavigationProperty Name="ManagePSDetails" Relationship="Self.pk_ManagePSDetails2" FromRole="PurchasingShipments" ToRole="ManagePSDetails" />
+        </EntityType>
+        <EntityType Name="StockInHand">
+          <Key>
+            <PropertyRef Name="StockID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="StockID" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FactoryName" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="ItemName" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="Date" Type="DateTime" Precision="3" />
+          <Property Name="ACostID" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+          <Property Name="NoOfItems" Type="Int32" />
+          <Property Name="descript" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="ActualCost" Relationship="Self.fk_StockInHand" FromRole="StockInHand" ToRole="ActualCost" />
+          <NavigationProperty Name="FOBSalesFrequencies" Relationship="Self.fk_FOBSalesFreqyency" FromRole="StockInHand" ToRole="FOBSalesFrequency" />
+          <NavigationProperty Name="Images" Relationship="Self.fk_Image" FromRole="StockInHand" ToRole="Image" />
+          <NavigationProperty Name="ManageStocks" Relationship="Self.fk_ManageStock2" FromRole="StockInHand" ToRole="ManageStock" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="UserName" />
+          </Key>
+          <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="password" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="NIC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Type" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="ManageCurrencies" Relationship="Self.Fk_ManageCurrency1" FromRole="User" ToRole="ManageCurrency" />
+          <NavigationProperty Name="ManageFixes" Relationship="Self.fk_ManageFix1" FromRole="User" ToRole="ManageFix" />
+          <NavigationProperty Name="ManageFOBSalesShipments" Relationship="Self.fk_ManageFOBSalesShipment1" FromRole="User" ToRole="ManageFOBSalesShipment" />
+          <NavigationProperty Name="ManagePSDetails" Relationship="Self.pk_ManagePSDetails1" FromRole="User" ToRole="ManagePSDetails" />
+          <NavigationProperty Name="ManageStocks" Relationship="Self.fk_ManageStock1" FromRole="User" ToRole="ManageStock" />
+          <NavigationProperty Name="PurchaseAccessories" Relationship="Self.fk_PurchaseAccessories1" FromRole="User" ToRole="PurchaseAccessories" />
+          <NavigationProperty Name="PurchaseFabs" Relationship="Self.fk_PurchaseFab" FromRole="User" ToRole="PurchaseFab" />
+        </EntityType>
+        <EntityType Name="UserType">
+          <Key>
+            <PropertyRef Name="UserTypeID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserTypeID" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserTypeName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Description" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="showBnSDetail">
+          <Key>
+            <PropertyRef Name="Shipment_Name" />
+            <PropertyRef Name="Frequency_Date" />
+            <PropertyRef Name="Frequency_No" />
+          </Key>
+          <Property Name="Shipment_Name" Type="String" MaxLength="300" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Frequency_Date" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Frequency_No" Type="Int32" Nullable="false" />
+          <Property Name="Number_of_Pieces" Type="Int32" />
+          <Property Name="Price_per_piece" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Total_Gross" Type="Decimal" Precision="19" Scale="4" />
+        </EntityType>
+        <EntityType Name="showCurDetail">
+          <Key>
+            <PropertyRef Name="Type" />
+          </Key>
+          <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Current_Value" Type="Decimal" Precision="19" Scale="4" />
+        </EntityType>
+        <Association Name="fk_PurchaseAccessories2">
+          <End Role="Accessories" Type="Self.Accessory" Multiplicity="1" />
+          <End Role="PurchaseAccessories" Type="Self.PurchaseAccessory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Accessories">
+              <PropertyRef Name="AccID" />
+            </Principal>
+            <Dependent Role="PurchaseAccessories">
+              <PropertyRef Name="AccID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_AccessoryCost">
+          <End Role="ActualCost" Type="Self.ActualCost" Multiplicity="0..1" />
+          <End Role="AccessoryCost" Type="Self.AccessoryCost" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ActualCost">
+              <PropertyRef Name="ACostID" />
+            </Principal>
+            <Dependent Role="AccessoryCost">
+              <PropertyRef Name="ACostID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_StockInHand">
+          <End Role="ActualCost" Type="Self.ActualCost" Multiplicity="0..1" />
+          <End Role="StockInHand" Type="Self.StockInHand" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ActualCost">
+              <PropertyRef Name="ACostID" />
+            </Principal>
+            <Dependent Role="StockInHand">
+              <PropertyRef Name="ACostID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_BnSFrequency">
+          <End Role="PurchasingShipments" Type="Self.PurchasingShipment" Multiplicity="1" />
+          <End Role="BnSFrequency" Type="Self.BnSFrequency" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PurchasingShipments">
+              <PropertyRef Name="ShipmentID" />
+            </Principal>
+            <Dependent Role="BnSFrequency">
+              <PropertyRef Name="ShipmentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_Currency">
+          <End Role="CurCategory" Type="Self.CurCategory" Multiplicity="0..1" />
+          <End Role="Currency" Type="Self.Currency" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CurCategory">
+              <PropertyRef Name="CurCatID" />
+            </Principal>
+            <Dependent Role="Currency">
+              <PropertyRef Name="CurrencyCategory" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Fk_ManageCurrency2">
+          <End Role="Currency" Type="Self.Currency" Multiplicity="1" />
+          <End Role="ManageCurrency" Type="Self.ManageCurrency" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Currency">
+              <PropertyRef Name="CurrencyID" />
+            </Principal>
+            <Dependent Role="ManageCurrency">
+              <PropertyRef Name="CurrencyID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_PurchaseFab2">
+          <End Role="Fabric" Type="Self.Fabric" Multiplicity="1" />
+          <End Role="PurchaseFab" Type="Self.PurchaseFab" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Fabric">
+              <PropertyRef Name="FabID" />
+            </Principal>
+            <Dependent Role="PurchaseFab">
+              <PropertyRef Name="FabID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_ManageFix2">
+          <End Role="FixedOverheads" Type="Self.FixedOverhead" Multiplicity="1" />
+          <End Role="ManageFix" Type="Self.ManageFix" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="FixedOverheads">
+              <PropertyRef Name="FixID" />
+            </Principal>
+            <Dependent Role="ManageFix">
+              <PropertyRef Name="FixID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_FOBSalesFreqyency">
+          <End Role="StockInHand" Type="Self.StockInHand" Multiplicity="1" />
+          <End Role="FOBSalesFrequency" Type="Self.FOBSalesFrequency" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="StockInHand">
+              <PropertyRef Name="StockID" />
+            </Principal>
+            <Dependent Role="FOBSalesFrequency">
+              <PropertyRef Name="ShipmentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_ManageFOBSalesShipment2">
+          <End Role="FOBSalesShipments" Type="Self.FOBSalesShipment" Multiplicity="1" />
+          <End Role="ManageFOBSalesShipment" Type="Self.ManageFOBSalesShipment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="FOBSalesShipments">
+              <PropertyRef Name="ShipmentID" />
+            </Principal>
+            <Dependent Role="ManageFOBSalesShipment">
+              <PropertyRef Name="ShipmentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_Image">
+          <End Role="StockInHand" Type="Self.StockInHand" Multiplicity="0..1" />
+          <End Role="Image" Type="Self.Image" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="StockInHand">
+              <PropertyRef Name="StockID" />
+            </Principal>
+            <Dependent Role="Image">
+              <PropertyRef Name="StockID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="Fk_ManageCurrency1">
+          <End Role="User" Type="Self.User" Multiplicity="1" />
+          <End Role="ManageCurrency" Type="Self.ManageCurrency" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserName" />
+            </Principal>
+            <Dependent Role="ManageCurrency">
+              <PropertyRef Name="UserName" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_ManageFix1">
+          <End Role="User" Type="Self.User" Multiplicity="1" />
+          <End Role="ManageFix" Type="Self.ManageFix" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserName" />
+            </Principal>
+            <Dependent Role="ManageFix">
+              <PropertyRef Name="UserName" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_ManageFOBSalesShipment1">
+          <End Role="User" Type="Self.User" Multiplicity="1" />
+          <End Role="ManageFOBSalesShipment" Type="Self.ManageFOBSalesShipment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserName" />
+            </Principal>
+            <Dependent Role="ManageFOBSalesShipment">
+              <PropertyRef Name="UserName" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="pk_ManagePSDetails1">
+          <End Role="User" Type="Self.User" Multiplicity="1" />
+          <End Role="ManagePSDetails" Type="Self.ManagePSDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserName" />
+            </Principal>
+            <Dependent Role="ManagePSDetails">
+              <PropertyRef Name="UserName" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="pk_ManagePSDetails2">
+          <End Role="PurchasingShipments" Type="Self.PurchasingShipment" Multiplicity="1" />
+          <End Role="ManagePSDetails" Type="Self.ManagePSDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PurchasingShipments">
+              <PropertyRef Name="ShipmentID" />
+            </Principal>
+            <Dependent Role="ManagePSDetails">
+              <PropertyRef Name="ShipmentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_ManageStock1">
+          <End Role="User" Type="Self.User" Multiplicity="1" />
+          <End Role="ManageStock" Type="Self.ManageStock" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserName" />
+            </Principal>
+            <Dependent Role="ManageStock">
+              <PropertyRef Name="UserName" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_ManageStock2">
+          <End Role="StockInHand" Type="Self.StockInHand" Multiplicity="1" />
+          <End Role="ManageStock" Type="Self.ManageStock" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="StockInHand">
+              <PropertyRef Name="StockID" />
+            </Principal>
+            <Dependent Role="ManageStock">
+              <PropertyRef Name="StockID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_PurchaseAccessories1">
+          <End Role="User" Type="Self.User" Multiplicity="1" />
+          <End Role="PurchaseAccessories" Type="Self.PurchaseAccessory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserName" />
+            </Principal>
+            <Dependent Role="PurchaseAccessories">
+              <PropertyRef Name="UserName" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_PurchaseFab">
+          <End Role="User" Type="Self.User" Multiplicity="1" />
+          <End Role="PurchaseFab" Type="Self.PurchaseFab" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserName" />
+            </Principal>
+            <Dependent Role="PurchaseFab">
+              <PropertyRef Name="UserName" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="adoraDBContext" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Accessories" EntityType="Self.Accessory" />
+          <EntitySet Name="AccessoryCosts" EntityType="Self.AccessoryCost" />
+          <EntitySet Name="ActualCosts" EntityType="Self.ActualCost" />
+          <EntitySet Name="BnSFrequencies" EntityType="Self.BnSFrequency" />
+          <EntitySet Name="CurCategories" EntityType="Self.CurCategory" />
+          <EntitySet Name="Currencies" EntityType="Self.Currency" />
+          <EntitySet Name="Fabrics" EntityType="Self.Fabric" />
+          <EntitySet Name="FabricCosts" EntityType="Self.FabricCost" />
+          <EntitySet Name="FixedOverheads" EntityType="Self.FixedOverhead" />
+          <EntitySet Name="FOBSalesFrequencies" EntityType="Self.FOBSalesFrequency" />
+          <EntitySet Name="FOBSalesShipments" EntityType="Self.FOBSalesShipment" />
+          <EntitySet Name="Images" EntityType="Self.Image" />
+          <EntitySet Name="ManageCurrencies" EntityType="Self.ManageCurrency" />
+          <EntitySet Name="ManageFixes" EntityType="Self.ManageFix" />
+          <EntitySet Name="ManageFOBSalesShipments" EntityType="Self.ManageFOBSalesShipment" />
+          <EntitySet Name="ManagePSDetails" EntityType="Self.ManagePSDetail" />
+          <EntitySet Name="ManageStocks" EntityType="Self.ManageStock" />
+          <EntitySet Name="PurchaseAccessories" EntityType="Self.PurchaseAccessory" />
+          <EntitySet Name="PurchaseFabs" EntityType="Self.PurchaseFab" />
+          <EntitySet Name="PurchasingShipments" EntityType="Self.PurchasingShipment" />
+          <EntitySet Name="StockInHands" EntityType="Self.StockInHand" />
+          <EntitySet Name="Users" EntityType="Self.User" />
+          <EntitySet Name="UserTypes" EntityType="Self.UserType" />
+          <EntitySet Name="showBnSDetails" EntityType="Self.showBnSDetail" />
+          <EntitySet Name="showCurDetails" EntityType="Self.showCurDetail" />
+          <AssociationSet Name="fk_PurchaseAccessories2" Association="Self.fk_PurchaseAccessories2">
+            <End Role="Accessories" EntitySet="Accessories" />
+            <End Role="PurchaseAccessories" EntitySet="PurchaseAccessories" />
+          </AssociationSet>
+          <AssociationSet Name="fk_AccessoryCost" Association="Self.fk_AccessoryCost">
+            <End Role="ActualCost" EntitySet="ActualCosts" />
+            <End Role="AccessoryCost" EntitySet="AccessoryCosts" />
+          </AssociationSet>
+          <AssociationSet Name="fk_StockInHand" Association="Self.fk_StockInHand">
+            <End Role="ActualCost" EntitySet="ActualCosts" />
+            <End Role="StockInHand" EntitySet="StockInHands" />
+          </AssociationSet>
+          <AssociationSet Name="fk_BnSFrequency" Association="Self.fk_BnSFrequency">
+            <End Role="PurchasingShipments" EntitySet="PurchasingShipments" />
+            <End Role="BnSFrequency" EntitySet="BnSFrequencies" />
+          </AssociationSet>
+          <AssociationSet Name="fk_Currency" Association="Self.fk_Currency">
+            <End Role="CurCategory" EntitySet="CurCategories" />
+            <End Role="Currency" EntitySet="Currencies" />
+          </AssociationSet>
+          <AssociationSet Name="Fk_ManageCurrency2" Association="Self.Fk_ManageCurrency2">
+            <End Role="Currency" EntitySet="Currencies" />
+            <End Role="ManageCurrency" EntitySet="ManageCurrencies" />
+          </AssociationSet>
+          <AssociationSet Name="fk_PurchaseFab2" Association="Self.fk_PurchaseFab2">
+            <End Role="Fabric" EntitySet="Fabrics" />
+            <End Role="PurchaseFab" EntitySet="PurchaseFabs" />
+          </AssociationSet>
+          <AssociationSet Name="fk_ManageFix2" Association="Self.fk_ManageFix2">
+            <End Role="FixedOverheads" EntitySet="FixedOverheads" />
+            <End Role="ManageFix" EntitySet="ManageFixes" />
+          </AssociationSet>
+          <AssociationSet Name="fk_FOBSalesFreqyency" Association="Self.fk_FOBSalesFreqyency">
+            <End Role="StockInHand" EntitySet="StockInHands" />
+            <End Role="FOBSalesFrequency" EntitySet="FOBSalesFrequencies" />
+          </AssociationSet>
+          <AssociationSet Name="fk_ManageFOBSalesShipment2" Association="Self.fk_ManageFOBSalesShipment2">
+            <End Role="FOBSalesShipments" EntitySet="FOBSalesShipments" />
+            <End Role="ManageFOBSalesShipment" EntitySet="ManageFOBSalesShipments" />
+          </AssociationSet>
+          <AssociationSet Name="fk_Image" Association="Self.fk_Image">
+            <End Role="StockInHand" EntitySet="StockInHands" />
+            <End Role="Image" EntitySet="Images" />
+          </AssociationSet>
+          <AssociationSet Name="Fk_ManageCurrency1" Association="Self.Fk_ManageCurrency1">
+            <End Role="User" EntitySet="Users" />
+            <End Role="ManageCurrency" EntitySet="ManageCurrencies" />
+          </AssociationSet>
+          <AssociationSet Name="fk_ManageFix1" Association="Self.fk_ManageFix1">
+            <End Role="User" EntitySet="Users" />
+            <End Role="ManageFix" EntitySet="ManageFixes" />
+          </AssociationSet>
+          <AssociationSet Name="fk_ManageFOBSalesShipment1" Association="Self.fk_ManageFOBSalesShipment1">
+            <End Role="User" EntitySet="Users" />
+            <End Role="ManageFOBSalesShipment" EntitySet="ManageFOBSalesShipments" />
+          </AssociationSet>
+          <AssociationSet Name="pk_ManagePSDetails1" Association="Self.pk_ManagePSDetails1">
+            <End Role="User" EntitySet="Users" />
+            <End Role="ManagePSDetails" EntitySet="ManagePSDetails" />
+          </AssociationSet>
+          <AssociationSet Name="pk_ManagePSDetails2" Association="Self.pk_ManagePSDetails2">
+            <End Role="PurchasingShipments" EntitySet="PurchasingShipments" />
+            <End Role="ManagePSDetails" EntitySet="ManagePSDetails" />
+          </AssociationSet>
+          <AssociationSet Name="fk_ManageStock1" Association="Self.fk_ManageStock1">
+            <End Role="User" EntitySet="Users" />
+            <End Role="ManageStock" EntitySet="ManageStocks" />
+          </AssociationSet>
+          <AssociationSet Name="fk_ManageStock2" Association="Self.fk_ManageStock2">
+            <End Role="StockInHand" EntitySet="StockInHands" />
+            <End Role="ManageStock" EntitySet="ManageStocks" />
+          </AssociationSet>
+          <AssociationSet Name="fk_PurchaseAccessories1" Association="Self.fk_PurchaseAccessories1">
+            <End Role="User" EntitySet="Users" />
+            <End Role="PurchaseAccessories" EntitySet="PurchaseAccessories" />
+          </AssociationSet>
+          <AssociationSet Name="fk_PurchaseFab" Association="Self.fk_PurchaseFab">
+            <End Role="User" EntitySet="Users" />
+            <End Role="PurchaseFab" EntitySet="PurchaseFabs" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="adoraDBModelStoreContainer" CdmEntityContainer="adoraDBContext">
+          <EntitySetMapping Name="Accessories">
+            <EntityTypeMapping TypeName="adoraDBModel.Accessory">
+              <MappingFragment StoreEntitySet="Accessories">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="AccID" ColumnName="AccID" />
+                <ScalarProperty Name="Category" ColumnName="Category" />
+                <ScalarProperty Name="UnitType" ColumnName="UnitType" />
+                <ScalarProperty Name="PricePerUnit" ColumnName="PricePerUnit" />
+                <ScalarProperty Name="NoOfUnits" ColumnName="NoOfUnits" />
+                <ScalarProperty Name="TransportCost" ColumnName="TransportCost" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AccessoryCosts">
+            <EntityTypeMapping TypeName="adoraDBModel.AccessoryCost">
+              <MappingFragment StoreEntitySet="AccessoryCost">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="AccCostID" ColumnName="AccCostID" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+                <ScalarProperty Name="Cost" ColumnName="Cost" />
+                <ScalarProperty Name="Unit" ColumnName="Unit" />
+                <ScalarProperty Name="ACostID" ColumnName="ACostID" />
+                <ScalarProperty Name="wieghtPitem" ColumnName="wieghtPitem" />
+                <ScalarProperty Name="costPerHundredgms" ColumnName="costPerHundredgms" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ActualCosts">
+            <EntityTypeMapping TypeName="adoraDBModel.ActualCost">
+              <MappingFragment StoreEntitySet="ActualCost">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="ACostID" ColumnName="ACostID" />
+                <ScalarProperty Name="CM" ColumnName="CM" />
+                <ScalarProperty Name="TotalCost" ColumnName="TotalCost" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BnSFrequencies">
+            <EntityTypeMapping TypeName="adoraDBModel.BnSFrequency">
+              <MappingFragment StoreEntitySet="BnSFrequency">
+                <ScalarProperty Name="ShipmentID" ColumnName="ShipmentID" />
+                <ScalarProperty Name="FrequencyID" ColumnName="FrequencyID" />
+                <ScalarProperty Name="NoOfPieces" ColumnName="NoOfPieces" />
+                <ScalarProperty Name="PricePerPiece" ColumnName="PricePerPiece" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CurCategories">
+            <EntityTypeMapping TypeName="adoraDBModel.CurCategory">
+              <MappingFragment StoreEntitySet="CurCategory">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="CurCatID" ColumnName="CurCatID" />
+                <ScalarProperty Name="Category" ColumnName="Category" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Currencies">
+            <EntityTypeMapping TypeName="adoraDBModel.Currency">
+              <MappingFragment StoreEntitySet="Currency">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="CurrencyID" ColumnName="CurrencyID" />
+                <ScalarProperty Name="Value" ColumnName="Value" />
+                <ScalarProperty Name="CurrencyCategory" ColumnName="CurrencyCategory" />
+                <ScalarProperty Name="change" ColumnName="change" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Fabrics">
+            <EntityTypeMapping TypeName="adoraDBModel.Fabric">
+              <MappingFragment StoreEntitySet="Fabric">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="FabID" ColumnName="FabID" />
+                <ScalarProperty Name="Category" ColumnName="Category" />
+                <ScalarProperty Name="PricePerYard" ColumnName="PricePerYard" />
+                <ScalarProperty Name="Yardage" ColumnName="Yardage" />
+                <ScalarProperty Name="TransportCost" ColumnName="TransportCost" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FabricCosts">
+            <EntityTypeMapping TypeName="adoraDBModel.FabricCost">
+              <MappingFragment StoreEntitySet="FabricCost">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="FabCostID" ColumnName="FabCostID" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+                <ScalarProperty Name="Cost" ColumnName="Cost" />
+                <ScalarProperty Name="ACostID" ColumnName="ACostID" />
+                <ScalarProperty Name="costPyard" ColumnName="costPyard" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FixedOverheads">
+            <EntityTypeMapping TypeName="adoraDBModel.FixedOverhead">
+              <MappingFragment StoreEntitySet="FixedOverheads">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="FixID" ColumnName="FixID" />
+                <ScalarProperty Name="Year" ColumnName="Year" />
+                <ScalarProperty Name="Month" ColumnName="Month" />
+                <ScalarProperty Name="Electricity" ColumnName="Electricity" />
+                <ScalarProperty Name="Tax" ColumnName="Tax" />
+                <ScalarProperty Name="Water" ColumnName="Water" />
+                <ScalarProperty Name="Salary" ColumnName="Salary" />
+                <ScalarProperty Name="RentOrMortgage" ColumnName="RentOrMortgage" />
+                <ScalarProperty Name="PhoneAnInternet" ColumnName="PhoneAnInternet" />
+                <ScalarProperty Name="Fuel" ColumnName="Fuel" />
+                <ScalarProperty Name="Misc" ColumnName="Misc" />
+                <ScalarProperty Name="Ot" ColumnName="Ot" />
+                <ScalarProperty Name="Other" ColumnName="Other" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FOBSalesFrequencies">
+            <EntityTypeMapping TypeName="adoraDBModel.FOBSalesFrequency">
+              <MappingFragment StoreEntitySet="FOBSalesFrequency">
+                <ScalarProperty Name="ShipmentID" ColumnName="ShipmentID" />
+                <ScalarProperty Name="FrequencyID" ColumnName="FrequencyID" />
+                <ScalarProperty Name="NoOfPieces" ColumnName="NoOfPieces" />
+                <ScalarProperty Name="PricePerPiece" ColumnName="PricePerPiece" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FOBSalesShipments">
+            <EntityTypeMapping TypeName="adoraDBModel.FOBSalesShipment">
+              <MappingFragment StoreEntitySet="FOBSalesShipments">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="ShipmentID" ColumnName="ShipmentID" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="NoOfPieces" ColumnName="NoOfPieces" />
+                <ScalarProperty Name="PricePerPiece" ColumnName="PricePerPiece" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Images">
+            <EntityTypeMapping TypeName="adoraDBModel.Image">
+              <MappingFragment StoreEntitySet="Image">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="ImageID" ColumnName="ImageID" />
+                <ScalarProperty Name="Link" ColumnName="Link" />
+                <ScalarProperty Name="StockID" ColumnName="StockID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ManageCurrencies">
+            <EntityTypeMapping TypeName="adoraDBModel.ManageCurrency">
+              <MappingFragment StoreEntitySet="ManageCurrency">
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="CurrencyID" ColumnName="CurrencyID" />
+                <ScalarProperty Name="datetime" ColumnName="datetime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ManageFixes">
+            <EntityTypeMapping TypeName="adoraDBModel.ManageFix">
+              <MappingFragment StoreEntitySet="ManageFix">
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="FixID" ColumnName="FixID" />
+                <ScalarProperty Name="datetime" ColumnName="datetime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ManageFOBSalesShipments">
+            <EntityTypeMapping TypeName="adoraDBModel.ManageFOBSalesShipment">
+              <MappingFragment StoreEntitySet="ManageFOBSalesShipment">
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="ShipmentID" ColumnName="ShipmentID" />
+                <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ManagePSDetails">
+            <EntityTypeMapping TypeName="adoraDBModel.ManagePSDetail">
+              <MappingFragment StoreEntitySet="ManagePSDetails">
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="ShipmentID" ColumnName="ShipmentID" />
+                <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ManageStocks">
+            <EntityTypeMapping TypeName="adoraDBModel.ManageStock">
+              <MappingFragment StoreEntitySet="ManageStock">
+                <ScalarProperty Name="StockID" ColumnName="StockID" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PurchaseAccessories">
+            <EntityTypeMapping TypeName="adoraDBModel.PurchaseAccessory">
+              <MappingFragment StoreEntitySet="PurchaseAccessories">
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="AccID" ColumnName="AccID" />
+                <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PurchaseFabs">
+            <EntityTypeMapping TypeName="adoraDBModel.PurchaseFab">
+              <MappingFragment StoreEntitySet="PurchaseFab">
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="FabID" ColumnName="FabID" />
+                <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PurchasingShipments">
+            <EntityTypeMapping TypeName="adoraDBModel.PurchasingShipment">
+              <MappingFragment StoreEntitySet="PurchasingShipments">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="ShipmentID" ColumnName="ShipmentID" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="NoOfPieces" ColumnName="NoOfPieces" />
+                <ScalarProperty Name="PricePerPiece" ColumnName="PricePerPiece" />
+                <ScalarProperty Name="ActualCostPerPiece" ColumnName="ActualCostPerPiece" />
+                <ScalarProperty Name="Micelleneous" ColumnName="Micelleneous" />
+                <ScalarProperty Name="date" ColumnName="date" />
+                <ScalarProperty Name="TransportCost" ColumnName="TransportCost" />
+                <ScalarProperty Name="SupplierCommission" ColumnName="SupplierCommission" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="StockInHands">
+            <EntityTypeMapping TypeName="adoraDBModel.StockInHand">
+              <MappingFragment StoreEntitySet="StockInHand">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="StockID" ColumnName="StockID" />
+                <ScalarProperty Name="FactoryName" ColumnName="FactoryName" />
+                <ScalarProperty Name="ItemName" ColumnName="ItemName" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="ACostID" ColumnName="ACostID" />
+                <ScalarProperty Name="NoOfItems" ColumnName="NoOfItems" />
+                <ScalarProperty Name="descript" ColumnName="descript" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="adoraDBModel.User">
+              <MappingFragment StoreEntitySet="User">
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="NIC" ColumnName="NIC" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserTypes">
+            <EntityTypeMapping TypeName="adoraDBModel.UserType">
+              <MappingFragment StoreEntitySet="UserType">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="UserTypeID" ColumnName="UserTypeID" />
+                <ScalarProperty Name="UserTypeName" ColumnName="UserTypeName" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="showBnSDetails">
+            <EntityTypeMapping TypeName="adoraDBModel.showBnSDetail">
+              <MappingFragment StoreEntitySet="showBnSDetails">
+                <ScalarProperty Name="Shipment_Name" ColumnName="Shipment Name" />
+                <ScalarProperty Name="Frequency_Date" ColumnName="Frequency Date" />
+                <ScalarProperty Name="Frequency_No" ColumnName="Frequency No" />
+                <ScalarProperty Name="Number_of_Pieces" ColumnName="Number of Pieces" />
+                <ScalarProperty Name="Price_per_piece" ColumnName="Price per piece" />
+                <ScalarProperty Name="Total_Gross" ColumnName="Total Gross" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="showCurDetails">
+            <EntityTypeMapping TypeName="adoraDBModel.showCurDetail">
+              <MappingFragment StoreEntitySet="showCurDetails">
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Current_Value" ColumnName="Current Value" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,102 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:metroChart="clr-namespace:De.TorstenMandelkow.MetroChart;assembly=De.TorstenMandelkow.MetroChart"
+             xmlns:WithoutBackButton="clr-namespace:ModernUIForWPFSample.WithoutBackButton" x:Class="ModernUIForWPFSample.WithoutBackButton.Views.FinalAnalysis" 
+             mc:Ignorable="d" 
+             d:DesignHeight="768" d:DesignWidth="1366" Loaded="UserControl_Loaded">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid>
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFBEBEBE" Offset="0"/>
+                    <GradientStop Color="#FFEAE8E8" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Rectangle HorizontalAlignment="Left" Height="161" Margin="42,91,0,0" Stroke="#FFFBFBFB" VerticalAlignment="Top" Width="496"/>
+            <ComboBox x:Name="dropYear" HorizontalAlignment="Left" VerticalAlignment="Top" Width="287" Margin="235,191,0,0" Visibility="Hidden"/>
+            <Button Content="Feed This Criteria &gt;&gt;&gt;" HorizontalAlignment="Left" Margin="235,150,0,0" VerticalAlignment="Top" Width="287" Click="Button_Click" Height="41"/>
+            <ComboBox x:Name="dropChartType" HorizontalAlignment="Left" VerticalAlignment="Top" Width="287" Margin="235,117,0,0" SelectionChanged="dropYear_Copy_SelectionChanged">
+                <ComboBoxItem Content="Stock Lots Sales Summary" HorizontalAlignment="Left" Width="285"/>
+                <ComboBoxItem Content="FOB Sales Summary" HorizontalAlignment="Left" Width="285"/>
+                <ComboBoxItem Content="Total Summary" HorizontalAlignment="Left" Width="285"/>
+                <ComboBoxItem Content="Net profit Comparison" HorizontalAlignment="Left" Width="285"/>
+            </ComboBox>
+            <RadioButton x:Name="radioYearly" Content="Yearly" HorizontalAlignment="Left" Margin="235,162,0,0" VerticalAlignment="Top" FontSize="14" Checked="radioYearly_Checked" IsChecked="True" Visibility="Hidden"/>
+            <RadioButton x:Name="radioMonthly" Content="Monthly" HorizontalAlignment="Left" Margin="361,162,0,0" VerticalAlignment="Top" FontSize="14" Checked="radioMonthly_Checked" Visibility="Hidden"/>
+            <ComboBox x:Name="dropProduct" HorizontalAlignment="Left" VerticalAlignment="Top" Width="287" Margin="235,230,0,0" IsEnabled="False" Visibility="Hidden"/>
+            <TabControl HorizontalAlignment="Left" Height="263" Margin="66,334,0,0" VerticalAlignment="Top" Width="459">
+                <TabItem Header="Penultimate Analysis" Margin="-2,-2,-2,0">
+                    <Grid Background="#FFE5E5E5">
+                        <Label Content="Cost of goods sold" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="125" FontSize="14" Height="28" Foreground="#FF898787" Margin="10,74,0,0" Background="#FFC7C4C4"/>
+                        <Label Content="Revenue" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="125" FontSize="14" Height="28" Foreground="#FF898787" Margin="77,121,0,0" Background="#FFC7C4C4"/>
+                        <Label Content="Balance" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="125" FontSize="14" Height="28" Foreground="#FF898787" Margin="83,168,0,0" Background="#FFC7C4C4"/>
+                        <Label Content="Stock Lots" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="125" FontSize="14" Height="28" Foreground="#FF898787" Margin="160,40,0,0" Background="#FFC7C4C4"/>
+                        <Label Content="FOB" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="42" FontSize="14" Height="28" Foreground="#FF898787" Margin="275,40,0,0" Background="#FFC7C4C4"/>
+                        <Label Content="Grand Total" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="90" FontSize="14" Height="28" Foreground="#FF898787" Margin="357,40,0,0" Background="#FFC7C4C4"/>
+                        <TextBox x:Name="tb11" HorizontalAlignment="Left" Height="23" Margin="146,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Background="White" Foreground="#FF3C3131" IsEnabled="False" BorderThickness="0,0,1,1" FontWeight="Bold" FontSize="11" TextAlignment="Right"/>
+                        <TextBox x:Name="tb12" HorizontalAlignment="Left" Height="23" Margin="249,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Background="White" Foreground="#FF3C3131" IsEnabled="False" BorderThickness="0,0,1,1" FontWeight="Bold" FontSize="11" TextAlignment="Right"/>
+                        <TextBox x:Name="tb13" HorizontalAlignment="Left" Height="23" Margin="350,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Background="White" Foreground="#FFF46A6A" IsEnabled="False" BorderThickness="0,0,1,1" FontWeight="Bold" FontSize="11" TextAlignment="Right"/>
+                        <TextBox x:Name="tb21" HorizontalAlignment="Left" Height="23" Margin="146,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Background="White" Foreground="#FF3C3131" IsEnabled="False" BorderThickness="0,0,1,1" FontWeight="Bold" FontSize="11" TextAlignment="Right"/>
+                        <TextBox x:Name="tb22" HorizontalAlignment="Left" Height="23" Margin="249,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Background="White" Foreground="#FF3C3131" IsEnabled="False" BorderThickness="0,0,1,1" FontWeight="Bold" FontSize="11" TextAlignment="Right"/>
+                        <TextBox x:Name="tb23" HorizontalAlignment="Left" Height="23" Margin="350,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Background="White" Foreground="#FFF46A6A" IsEnabled="False" BorderThickness="0,0,1,1" FontWeight="Bold" FontSize="11" TextAlignment="Right"/>
+                        <TextBox x:Name="tb31" HorizontalAlignment="Left" Height="23" Margin="146,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Background="White" Foreground="#FFF46A6A" IsEnabled="False" BorderThickness="0,0,1,1" FontWeight="Bold" FontSize="11" TextAlignment="Right"/>
+                        <TextBox x:Name="tb32" HorizontalAlignment="Left" Height="23" Margin="249,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Background="White" Foreground="#FFF46A6A" IsEnabled="False" BorderThickness="0,0,1,1" FontWeight="Bold" FontSize="11" TextAlignment="Right"/>
+                        <TextBox x:Name="tb33" HorizontalAlignment="Left" Height="23" Margin="350,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Background="White" Foreground="#FF1076BD" IsEnabled="False" BorderThickness="0,0,1,1" FontWeight="Bold" FontSize="11" TextAlignment="Right"/>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Final Analysis">
+                    <Grid Background="#FFE5E5E5">
+                        <Label Content="Revenue" HorizontalAlignment="Left" Margin="115,11,0,0" VerticalAlignment="Top" Foreground="#FF948E8E" FontSize="14"/>
+                        <Label Content="Cost of goods sold" HorizontalAlignment="Left" Margin="51,48,0,0" VerticalAlignment="Top" Foreground="#FF948E8E" FontSize="14"/>
+                        <Label Content="Gross Profit" HorizontalAlignment="Left" Margin="95,87,0,0" VerticalAlignment="Top" Foreground="#FF948E8E" FontSize="14"/>
+                        <Label Content="Operating expenses" HorizontalAlignment="Left" Margin="45,127,0,0" VerticalAlignment="Top" Foreground="#FF948E8E" FontSize="14"/>
+                        <Label Content="Operating income" HorizontalAlignment="Left" Margin="57,167,0,0" VerticalAlignment="Top" Foreground="#FF948E8E" FontSize="14"/>
+                        <Label Content="Net profit" HorizontalAlignment="Left" Margin="107,205,0,0" VerticalAlignment="Top" Foreground="#FF948E8E" FontSize="14"/>
+                        <TextBox x:Name="tb1" HorizontalAlignment="Left" Height="24" Margin="209,11,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193" Foreground="#FF3C3131" IsEnabled="False" FontSize="14" Background="White" BorderThickness="0,0,1,1" FontWeight="Bold" TextAlignment="Right"/>
+                        <TextBox x:Name="tb2" HorizontalAlignment="Left" Height="24" Margin="209,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193" Background="White" Foreground="#FF3C3131" IsEnabled="False" FontSize="14" BorderThickness="0,0,1,1" FontWeight="Bold" TextAlignment="Right"/>
+                        <TextBox x:Name="tb3" HorizontalAlignment="Left" Height="25" Margin="209,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193" Background="White" Foreground="#FF1065A1" IsEnabled="False" FontSize="14" BorderThickness="0,0,1,1" FontWeight="Bold" TextAlignment="Right"/>
+                        <TextBox x:Name="tb4" HorizontalAlignment="Left" Height="24" Margin="209,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193" Background="White" Foreground="#FF3C3131" IsEnabled="False" FontSize="14" BorderThickness="0,0,1,1" FontWeight="Bold" TextAlignment="Right"/>
+                        <TextBox x:Name="tb6" HorizontalAlignment="Left" Height="24" Margin="209,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193" Background="White" Foreground="#FFF75454" IsEnabled="False" FontSize="14" BorderThickness="0,0,1,1" FontWeight="Bold" TextAlignment="Right"/>
+                        <TextBox x:Name="tb5" HorizontalAlignment="Left" Height="25" Margin="209,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193" Background="White" Foreground="#FF3C3131" IsEnabled="False" FontSize="14" BorderThickness="0,0,1,1" FontWeight="Bold" TextAlignment="Right"/>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+            <Label Content="Generate Pattern" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="125" FontSize="16" Height="28" Foreground="Black" Margin="66,270,0,0"/>
+            <Canvas Margin="202,331,994,418">
+                <RadioButton x:Name="radioMonthly1" Content="Monthly" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14" Checked="radioMonthly1_Checked" Canvas.Left="99" Canvas.Top="-58"/>
+                <RadioButton x:Name="radioYearly1" Content="Yearly" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14" Checked="radioYearly1_Checked" Canvas.Top="-56"/>
+            </Canvas>
+            <Label Content="Month&#xA;" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="125" FontSize="16" Height="28" Foreground="Black" Margin="301,298,0,0"/>
+            <ComboBox x:Name="dropYear1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="73" Margin="202,298,0,0" RenderTransformOrigin="1.5,2.568" SelectionChanged="dropYear1_SelectionChanged"/>
+            <ComboBox x:Name="dropMonth1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="126" Margin="373,298,0,0" RenderTransformOrigin="1.167,2.295" SelectionChanged="dropMonth1_SelectionChanged"/>
+            <Label Content="Year" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="125" FontSize="16" Height="28" Foreground="Black" Margin="66,298,0,0"/>
+            <Button Content="Print Chart" HorizontalAlignment="Left" Margin="399,199,0,0" VerticalAlignment="Top" Width="123" Click="Button_Click_2"/>
+            <Rectangle HorizontalAlignment="Left" Height="346" Margin="42,260,0,0" Stroke="#FFFBFBFB" VerticalAlignment="Top" Width="496"/>
+        </Grid>
+        <Label Content="Analytical Summary" HorizontalAlignment="Left" Margin="44,27,0,0" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" FontSize="21.333" Height="37" Width="194" Foreground="Black"/>
+        <Label Content="Generate" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="87" FontSize="16" Height="47" Foreground="Black" Margin="59,116,0,0"/>
+        <Label Content="Generate Pattern" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="125" FontSize="16" Height="47" Foreground="Black" Margin="59,158,0,0" Visibility="Hidden"/>
+        <Label x:Name="lblYear" Content="Year" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="125" FontSize="16" Height="46" Foreground="Black" Margin="59,191,0,0" Visibility="Hidden"/>
+
+        <Canvas x:Name="chartCanvas" Margin="562,87,0,0" Background="White" Width="672" Height="518" HorizontalAlignment="Left" VerticalAlignment="Top" >
+
+            <Frame NavigationUIVisibility="Hidden" x:Name="FrameTest" Source="{Binding SelectedPageChart, Mode=TwoWay}" Height="502" Canvas.Left="10" Canvas.Top="10" Background="White"/>
+        </Canvas>
+        <Label Content="Chart Type" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="87" FontSize="16" Height="47" Foreground="Black" Margin="578,98,0,0"/>
+        <ComboBox ItemsSource="{Binding ChartTypes, Mode=TwoWay}"  SelectedItem="{Binding SimpleStringProperty, Mode=TwoWay}" Text="Select Option" HorizontalAlignment="Left" VerticalAlignment="Top" Width="508" Margin="670,102,0,0" SelectionChanged="ComboBox_SelectionChanged"/>
+        <Label x:Name="lblYear_Copy" Content="Product" HorizontalAlignment="Left" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="125" FontSize="16" Height="46" Foreground="Black" Margin="59,229,0,0" Visibility="Hidden"/>
+
+    </Grid>
+
+</UserControl>

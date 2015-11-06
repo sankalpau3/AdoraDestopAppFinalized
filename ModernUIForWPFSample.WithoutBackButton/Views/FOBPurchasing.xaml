@@ -1,0 +1,187 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:WithoutBackButton="clr-namespace:ModernUIForWPFSample.WithoutBackButton" x:Name="FOBPurchasing1" x:Class="ModernUIForWPFSample.WithoutBackButton.Views.FOBPurchasing" 
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="1366" Loaded="FOBPurchasing1_Loaded">
+    <UserControl.Resources>
+        <CollectionViewSource x:Key="accessoryViewSource" d:DesignSource="{d:DesignInstance {x:Type WithoutBackButton:Accessory}, CreateList=True}"/>
+        <CollectionViewSource x:Key="fabricViewSource" d:DesignSource="{d:DesignInstance {x:Type WithoutBackButton:Fabric}, CreateList=True}"/>
+    </UserControl.Resources>
+    <Grid x:Name="LayoutRoot" Width="1366" Height="700" DataContext="{StaticResource accessoryViewSource}">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFBEBEBE" Offset="0"/>
+                <GradientStop Color="#FFEAE8E8" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="FOB Purchase " HorizontalAlignment="Left" Margin="12.972,11.041,0,0" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" FontSize="21.333" Height="37.452" Width="194.018" Foreground="Black"/>
+        <TabControl Height="580" Margin="10,53,0,0" Width="1283" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <TabItem Header="Fabric" Margin="-2,-2,2,0" Width="640">
+                <Grid Background="#FFE5E5E5" Margin="0,0,1,1" Width="1276" Height="551">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="915*"/>
+                        <ColumnDefinition Width="361*"/>
+                    </Grid.ColumnDefinitions>
+                    <Rectangle Stroke="#FFFBFBFB" Margin="10,10,392,43"/>
+                    <Label Content="Add Fabric Purchase Details" HorizontalAlignment="Left" Margin="14,14,0,0" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="243" FontSize="18.667" Height="47" Foreground="Black"/>
+                    <Rectangle Fill="#B5FFFFFF" HorizontalAlignment="Left" Height="3" Margin="10,41,0,0" Stroke="Black" VerticalAlignment="Top" Width="360" StrokeThickness="0"/>
+                    <Rectangle HorizontalAlignment="Left" Height="359" Stroke="#FFFBFBFB" VerticalAlignment="Top" Width="648" Margin="552,159,0,0" Grid.ColumnSpan="2"/>
+                    <DatePicker x:Name="dtsFOBPAddFab" HorizontalAlignment="Left" Margin="302,76,0,0" VerticalAlignment="Top" Width="168"/>
+                    <ComboBox x:Name="cmbFOBPAddFabType" HorizontalAlignment="Left" Margin="302,126,0,0" VerticalAlignment="Top" Width="168" IsEditable="True" KeyUp="cmbFOBPAddFabType_KeyUp" SelectionChanged="cmbFOBPAddFabType_SelectionChanged" KeyDown="cmbFOBPAddFabType_KeyDown"/>
+                    <TextBox x:Name="txtFOBPAddFabPricePerYard" HorizontalAlignment="Left" Height="23" Margin="302,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" KeyDown="txtFOBPAddFabPricePerYard_KeyDown"/>
+                    <TextBox x:Name="txtFOBPAddFabYardage" HorizontalAlignment="Left" Height="23" Margin="302,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" KeyDown="txtFOBPAddFabYardage_KeyDown" TextChanged="txtFOBPAddFabYardage_TextChanged"/>
+                    <TextBox x:Name="txtFOBPAddFabCourierTransport" HorizontalAlignment="Left" Height="23" Margin="302,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" KeyDown="txtFOBPAddFabCourierTransport_KeyDown"/>
+
+                    <Label Content="Date" HorizontalAlignment="Left" Margin="52,76,0,0" VerticalAlignment="Top" Width="168" Foreground="Black" FontSize="16" Height="31"/>
+                    <Label Content="Price per Yard" HorizontalAlignment="Left" Margin="52,166,0,0" VerticalAlignment="Top" Width="168" Foreground="Black" FontSize="16" Height="31"/>
+                    <Label Content="Yardage" HorizontalAlignment="Left" Margin="52,206,0,0" VerticalAlignment="Top" Width="168" Foreground="Black" FontSize="16" Height="31"/>
+                    <Label Content="Courier / Transport" HorizontalAlignment="Left" Margin="52,246,0,0" VerticalAlignment="Top" Width="168" Foreground="Black" FontSize="16" Height="31"/>
+                    <Label Content="Cost" HorizontalAlignment="Left" Margin="52,346,0,0" VerticalAlignment="Top" Width="168" Foreground="Black" FontSize="16" Height="31"/>
+                    <TextBox x:Name="txtFOBPAddFabCost" HorizontalAlignment="Left" Height="23" Margin="302,346,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" IsEnabled="False"/>
+                    <Label Content="Category" HorizontalAlignment="Left" Margin="52,126,0,0" VerticalAlignment="Top" Width="168" Foreground="Black" FontSize="16" Height="31"/>
+                    <Button Content="Calculate" HorizontalAlignment="Left" Margin="386,289,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_1"/>
+                    <Button x:Name="btnFOBPAddFab" Content="Add" HorizontalAlignment="Left" Margin="358,448,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_2"/>
+
+                    <Rectangle HorizontalAlignment="Left" Height="97" Stroke="#FFFBFBFB" VerticalAlignment="Top" Width="648" Margin="552,10,0,0" Grid.ColumnSpan="2"/>
+                    <Label Content="Actual Cost per Yard" HorizontalAlignment="Left" Margin="52,386,0,0" VerticalAlignment="Top" Width="205" Foreground="Black" FontSize="16" Height="31"/>
+                    <TextBox x:Name="txtFOBPAddFabActualCostPerYard" HorizontalAlignment="Left" Height="23" Margin="302,386,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" IsEnabled="False"/>
+                    <Button Content="Reset" HorizontalAlignment="Left" Margin="222,448,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click"/>
+                    <Label Content="LKR" HorizontalAlignment="Left" Margin="490,166,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF333333" FontSize="14"/>
+                    <Label Content="LKR" HorizontalAlignment="Left" Margin="490,346,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF333333" FontSize="14"/>
+                    <Label Content="LKR" HorizontalAlignment="Left" Margin="490,386,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF333333" FontSize="14"/>
+                    <Label x:Name="lblFOBPFabErrPricePerYard" Content="" HorizontalAlignment="Left" Margin="477,173,0,0" VerticalAlignment="Top" FontSize="18" Foreground="Red" Height="10" Width="10" Visibility="Hidden">
+                        <Label.Background>
+                            <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+                        </Label.Background>
+                    </Label>
+                    <Label x:Name="lblFOBPFabErrYardage" Content="" HorizontalAlignment="Left" Margin="477,213,0,0" VerticalAlignment="Top" FontSize="18" Foreground="Red" Height="10" Width="10" Visibility="Hidden">
+                        <Label.Background>
+                            <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+                        </Label.Background>
+                    </Label>
+                    <Label x:Name="lblFOBPFabErrCourierTransport" Content="" HorizontalAlignment="Left" Margin="477,252,0,0" VerticalAlignment="Top" FontSize="18" Foreground="Red" Height="10" Width="10" Visibility="Hidden">
+                        <Label.Background>
+                            <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+                        </Label.Background>
+                    </Label>
+                    <Label x:Name="lblFOBPFabErrType" Content="" HorizontalAlignment="Left" Margin="477,132,0,0" VerticalAlignment="Top" FontSize="18" Foreground="Red" Height="10" Width="10" Visibility="Hidden">
+                        <Label.Background>
+                            <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+                        </Label.Background>
+                    </Label>
+                    <Label x:Name="lblFOBPFabErrDate" Content="" HorizontalAlignment="Left" Margin="477,82,0,0" VerticalAlignment="Top" FontSize="18" Foreground="Red" Height="10" Width="10" Visibility="Hidden">
+                        <Label.Background>
+                            <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+                        </Label.Background>
+                    </Label>
+                    <Label Content="LKR" HorizontalAlignment="Left" Margin="490,246,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF333333" FontSize="14"/>
+                    <DataGrid x:Name="fabricDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding Source={StaticResource fabricViewSource}}" Margin="552,112,76,43" RowDetailsVisibilityMode="VisibleWhenSelected" Background="#FF333333" Grid.ColumnSpan="2">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn x:Name="categoryColumn1" Binding="{Binding Category}" Header="Category" Width="SizeToHeader"/>
+                            <DataGridTextColumn x:Name="fabIDColumn" Binding="{Binding FabID}" Header="Fab ID" Width="SizeToHeader"/>
+                            <DataGridTextColumn x:Name="iDColumn1" Binding="{Binding ID}" Header="ID" Width="SizeToHeader"/>
+                            <DataGridTextColumn x:Name="pricePerYardColumn" Binding="{Binding PricePerYard}" Header="Price Per Yard" Width="SizeToHeader"/>
+                            <DataGridTextColumn x:Name="transportCostColumn1" Binding="{Binding TransportCost}" Header="Transport Cost" Width="SizeToHeader"/>
+                            <DataGridTextColumn x:Name="yardageColumn" Binding="{Binding Yardage}" Header="Yardage" Width="SizeToHeader"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <ComboBox x:Name="cmbFOBPFabEditCatogery" HorizontalAlignment="Left" Margin="639,60,0,0" VerticalAlignment="Top" Width="175" SelectionChanged="cmbFOBPFabEditCatogery_SelectionChanged"/>
+                    <ComboBox x:Name="cmbFOBPFabEditID" HorizontalAlignment="Left" Margin="884,61,0,0" VerticalAlignment="Top" Width="176" Grid.ColumnSpan="2" DropDownClosed="cmbFOBPFabEditID_DropDownClosed"/>
+                    <Button x:Name="btnFOBPFabDelete" Content="Delete" HorizontalAlignment="Left" Margin="160,60,0,0" VerticalAlignment="Top" Width="112" Height="22" Click="btnFOBPFabDelete_Click" Grid.Column="1"/>
+                    <Label Content="Edit and Delete" HorizontalAlignment="Left" Margin="556,14,0,0" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="243" FontSize="18.667" Height="47" Foreground="Black"/>
+                    <Rectangle Fill="#B5FFFFFF" HorizontalAlignment="Left" Height="3" Margin="552,41,0,0" Stroke="Black" VerticalAlignment="Top" Width="360" StrokeThickness="0"/>
+                    <Label x:Name="lblFOBPFabEditType" Content="Category" HorizontalAlignment="Left" Margin="564,61,0,0" VerticalAlignment="Top" Width="168" Foreground="Black" FontSize="16" Height="31"/>
+                    <Label x:Name="lblFOBPFabEditFabID" Content="Fab ID" HorizontalAlignment="Left" Margin="824,61,0,0" VerticalAlignment="Top" Width="70" Foreground="Black" FontSize="16" Height="31"/>
+                    <Label x:Name="lbleditFabID" Content="0000" HorizontalAlignment="Left" Margin="72,422,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Accessories " Margin="-3,0,-326,0">
+                <Grid Background="#FFE5E5E5" Margin="0,0,1,1" Width="1276" Height="551">
+                    <Rectangle Stroke="#FFFBFBFB" Margin="10,10,753,33"/>
+                    <Label Content="Add Accessories  Purchase Details" HorizontalAlignment="Left" Margin="14,14,0,0" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="297" FontSize="18.667" Height="47" Foreground="Black"/>
+                    <Rectangle Fill="#B5FFFFFF" HorizontalAlignment="Left" Height="3" Margin="10,41,0,0" Stroke="Black" VerticalAlignment="Top" Width="360" StrokeThickness="0"/>
+                    <Rectangle HorizontalAlignment="Left" Height="394" Stroke="#FFFBFBFB" VerticalAlignment="Top" Width="648" Margin="552,124,0,0"/>
+                    <DatePicker x:Name="dtsFOBPAddAccDate" HorizontalAlignment="Left" Margin="302,76,0,0" VerticalAlignment="Top" Width="168"/>
+                    <ComboBox x:Name="cmbFOBPAddAccType" HorizontalAlignment="Left" Margin="302,117,0,0" VerticalAlignment="Top" Width="168" SelectionChanged="cmbFOBPAddAccType_SelectionChanged" KeyUp="cmbFOBPAddAccType_KeyUp" IsEditable="True"/>
+                    <ComboBox x:Name="cmbFOBPAddAccUnit" HorizontalAlignment="Left" Margin="302,157,0,0" VerticalAlignment="Top" Width="168" KeyUp="cmbFOBPAddAccUnit_KeyUp" IsEditable="True" SelectionChanged="cmbFOBPAddAccUnit_SelectionChanged"/>
+                    <TextBox x:Name="txtFOBPAddAccPricePerUnit" HorizontalAlignment="Left" Height="23" Margin="302,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" KeyDown="txtFOBPAddAccPricePerUnit_KeyDown"/>
+                    <TextBox x:Name="txtFOBPAddAccNoOfUnits" HorizontalAlignment="Left" Height="23" Margin="302,232,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" KeyDown="txtFOBPAddAccNoOfUnits_KeyDown" TextChanged="txtFOBPAddAccNoOfUnits_TextChanged"/>
+                    <TextBox x:Name="txtFOBPAddAccCourierTransport" HorizontalAlignment="Left" Height="23" Margin="302,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" KeyDown="txtFOBPAddAccCourierTransport_KeyDown"/>
+                    <Button x:Name="btnFOBPAddAccCalc" Content="Calculate" HorizontalAlignment="Left" Margin="386,311,0,0" VerticalAlignment="Top" Width="112" Click="btnFOBPAddAccCalc_Click_1"/>
+                    <Button x:Name="btnFOBPAddAccAdd" Content="Add" HorizontalAlignment="Left" Margin="358,448,0,0" VerticalAlignment="Top" Width="112" Click="btnFOBPAddAccAdd_Click"/>
+
+
+                    <Label x:Name="lblFOBPAddAccDate" Content="Date" HorizontalAlignment="Left" Margin="52,76,0,0" VerticalAlignment="Top" Width="168" FontSize="16" Foreground="Black" Height="31"/>
+                    <Label x:Name="lblFOBPAddAccPricePreUnit" Content="Price per Unit" HorizontalAlignment="Left" Margin="52,194,0,0" VerticalAlignment="Top" Width="192" FontSize="16" Foreground="Black" Height="31"/>
+                    <Label x:Name="lblFOBPAddAccNoOfUnits" Content="No. Of Units" HorizontalAlignment="Left" Margin="52,233,0,0" VerticalAlignment="Top" Width="168" FontSize="16" Foreground="Black" Height="31"/>
+                    <Label x:Name="lblFOBPAddAccCourierTransport" Content="Courier / Transport" HorizontalAlignment="Left" Margin="52,270,0,0" VerticalAlignment="Top" Width="168" FontSize="16" Foreground="Black" Height="31"/>
+                    <Label x:Name="lblFOBPAddAccCost" Content="Cost" HorizontalAlignment="Left" Margin="52,346,0,0" VerticalAlignment="Top" Width="168" FontSize="16" Foreground="Black" Height="31"/>
+                    <TextBox x:Name="txtFOBPAddAccCost" HorizontalAlignment="Left" Height="23" Margin="302,346,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" IsEnabled="False"/>
+                    <Label x:Name="lblFOBPAddAccType" Content="Category" HorizontalAlignment="Left" Margin="52,117,0,0" VerticalAlignment="Top" Width="168" FontSize="16" Foreground="Black"/>
+                    <Rectangle HorizontalAlignment="Left" Height="97" Stroke="#FFFBFBFB" VerticalAlignment="Top" Width="648" Margin="552,10,0,0"/>
+                    <Label x:Name="lblFOBPAddAccActualCostPerUnit" Content="Actual Cost per Unit" HorizontalAlignment="Left" Margin="52,386,0,0" VerticalAlignment="Top" Width="192" FontSize="16" Foreground="Black" Height="31"/>
+                    <TextBox x:Name="txtFOBPAddAccActualCostPerUnit" HorizontalAlignment="Left" Height="23" Margin="302,386,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" IsEnabled="False"/>
+                    <Button x:Name="btnFOBPAddAccReset" Content="Reset" HorizontalAlignment="Left" Margin="222,448,0,0" VerticalAlignment="Top" Width="112" Click="btnFOBPAddAccReset_Click"/>
+                    <Label x:Name="lblFOBPErrAccPricePreUnit" Content="" HorizontalAlignment="Left" Margin="477,197,0,0" VerticalAlignment="Top" FontSize="18" Foreground="Red" Height="10" Width="10" RenderTransformOrigin="2.4,-4.233" Visibility="Hidden">
+                        <Label.Background>
+                            <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+                        </Label.Background>
+                    </Label>
+                    <Label x:Name="lblFOBPErrAccNoOfUnits" Content="" HorizontalAlignment="Left" Margin="477,237,0,0" VerticalAlignment="Top" FontSize="18" Foreground="Red" Height="10" Width="10" Visibility="Hidden">
+                        <Label.Background>
+                            <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+                        </Label.Background>
+                    </Label>
+                    <Label x:Name="lblFOBPErrAccCourierTransport" Content="" HorizontalAlignment="Left" Margin="477,276,0,0" VerticalAlignment="Top" FontSize="18" Foreground="Red" Height="10" Width="10" Visibility="Hidden">
+                        <Label.Background>
+                            <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+                        </Label.Background>
+                    </Label>
+                    <Label x:Name="lblFOBPErrAccType" Content="" HorizontalAlignment="Left" Margin="477,125,0,0" VerticalAlignment="Top" FontSize="18" Foreground="Red" Height="10" Width="10" Visibility="Hidden">
+                        <Label.Background>
+                            <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+                        </Label.Background>
+                    </Label>
+                    <Label x:Name="lblFOBPErrAccDate" Content="" HorizontalAlignment="Left" Margin="477,82,0,0" VerticalAlignment="Top" FontSize="18" Foreground="Red" Height="10" Width="10" Visibility="Hidden">
+                        <Label.Background>
+                            <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+                        </Label.Background>
+                    </Label>
+                    <Label Content="LKR" HorizontalAlignment="Left" Margin="490,196,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF333333" FontSize="14"/>
+                    <Label Content="LKR" HorizontalAlignment="Left" Margin="490,346,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF333333" FontSize="14"/>
+                    <Label Content="LKR" HorizontalAlignment="Left" Margin="490,386,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF333333" FontSize="14"/>
+                    <Label Content="LKR" HorizontalAlignment="Left" Margin="490,236,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF333333" FontSize="14"/>
+                    <DataGrid x:Name="accessoryDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="False" ItemsSource="{Binding}" Margin="552,112,76,45" RowDetailsVisibilityMode="VisibleWhenSelected" Background="#FF333333">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn x:Name="accIDColumn" Binding="{Binding AccID}" Header="Acc ID" Width="SizeToHeader"/>
+                            <DataGridTextColumn x:Name="categoryColumn" Binding="{Binding Category}" Header="Category" Width="SizeToHeader"/>
+                            <DataGridTextColumn x:Name="iDColumn" Binding="{Binding ID}" Header="ID" Width="SizeToHeader"/>
+                            <DataGridTextColumn x:Name="noOfUnitsColumn" Binding="{Binding NoOfUnits}" Header="No Of Units" Width="SizeToHeader"/>
+                            <DataGridTextColumn x:Name="pricePerUnitColumn" Binding="{Binding PricePerUnit}" Header="Price Per Unit" Width="SizeToHeader"/>
+                            <DataGridTextColumn x:Name="transportCostColumn" Binding="{Binding TransportCost}" Header="Transport Cost" Width="SizeToHeader"/>
+                            <DataGridTextColumn x:Name="unitTypeColumn" Binding="{Binding UnitType}" Header="Unit Type" Width="SizeToHeader"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Label Content="Edit and Delete" HorizontalAlignment="Left" Margin="556,14,0,0" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Top" Width="243" FontSize="18.667" Height="47" Foreground="Black"/>
+                    <Rectangle Fill="#B5FFFFFF" HorizontalAlignment="Left" Height="3" Margin="552,41,0,0" Stroke="Black" VerticalAlignment="Top" Width="360" StrokeThickness="0"/>
+                    <ComboBox x:Name="cmbFOBPAccEditCatogery" HorizontalAlignment="Left" Margin="648,61,0,0" VerticalAlignment="Top" Width="174" SelectionChanged="cmbFOBPAccEditCatogery_SelectionChanged"/>
+                    <ComboBox x:Name="cmbFOBPAccEditID" HorizontalAlignment="Left" Margin="892,61,0,0" VerticalAlignment="Top" Width="175" DropDownClosed="cmbFOBPAccEditID_DropDownClosed"/>
+                    <Button x:Name="btnFOBPAccDelete" Content="Delete" HorizontalAlignment="Left" Margin="1078,61,0,0" VerticalAlignment="Top" Width="112" Height="26" Click="btnFOBPAccDelete_Click"/>
+                    <Label x:Name="lblFOBPAccEditType" Content="Category" HorizontalAlignment="Left" Margin="570,61,0,0" VerticalAlignment="Top" Width="168" Foreground="Black" FontSize="16" Height="31"/>
+                    <Label x:Name="lblFOBPAccEditFabID" Content="Acc ID" HorizontalAlignment="Left" Margin="836,61,0,0" VerticalAlignment="Top" Width="94" Foreground="Black" FontSize="16" Height="31"/>
+                    <Label x:Name="lbleditAssID" Content="00000" HorizontalAlignment="Left" Margin="117,461,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+                    <Label x:Name="lblFOBPAddAccType_Copy" Content="Unit" HorizontalAlignment="Left" Margin="52,154,0,0" VerticalAlignment="Top" Width="168" FontSize="16" Foreground="Black"/>
+                    <Label Content="LKR" HorizontalAlignment="Left" Margin="490,270,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF333333" FontSize="14"/>
+                    <Label x:Name="lblFOBPErrAccUnit" Content="" HorizontalAlignment="Left" Margin="477,166,0,0" VerticalAlignment="Top" FontSize="18" Foreground="Red" Height="10" Width="10" Visibility="Hidden">
+                        <Label.Background>
+                            <ImageBrush ImageSource="/ModernUIForWPFSample.WithoutBackButton;component/Images/error.png"/>
+                        </Label.Background>
+                    </Label>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</UserControl>
